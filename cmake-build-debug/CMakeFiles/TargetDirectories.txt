@@ -1,0 +1,3 @@
+C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/NekrachiJadActivityTracker.dir
+C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
