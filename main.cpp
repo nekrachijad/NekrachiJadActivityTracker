@@ -1,14 +1,12 @@
 #include <QApplication>
-#include <QWidget>
+#include <QPushButton>
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
-    QWidget window;
-    window.resize(400, 300);
-    window.setWindowTitle("Finestra Qt Base");
-    window.show();
+    QPushButton button("Cliccami!");
+    button.resize(200, 100);
+    button.show();
 
     return app.exec();
 }
-

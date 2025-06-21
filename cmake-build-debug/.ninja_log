@@ -1,0 +1,15 @@
+# ninja log v6
+256	361	7721996334038327	CMakeFiles/NekrachiJadActivityTracker.dir/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.obj	782316e32f76f2ca
+24	160	7722039763439112	C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/timestamp	4515fbdcb57b50c5
+24	160	7722039763439112	NekrachiJadActivityTracker_autogen/timestamp	4515fbdcb57b50c5
+24	160	7722039763439112	NekrachiJadActivityTracker_autogen/mocs_compilation.cpp	4515fbdcb57b50c5
+24	160	7722039763439112	C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp	4515fbdcb57b50c5
+200	2587	7721998119489196	CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.obj	442581ece1c80951
+2588	2701	7721998143359897	NekrachiJadActivityTracker.exe	8eb437b06105ed52
+2	691	7722042497108626	build.ninja	a5646a4cfe97729a
+7	712	7722042497108626	build.ninja	a5646a4cfe97729a
+24	135	7722042498663729	NekrachiJadActivityTracker_autogen/timestamp	4515fbdcb57b50c5
+24	135	7722042498663729	NekrachiJadActivityTracker_autogen/mocs_compilation.cpp	4515fbdcb57b50c5
+24	135	7722042498663729	C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/timestamp	4515fbdcb57b50c5
+24	135	7722042498663729	C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp	4515fbdcb57b50c5
+135	377	7722042499779301	NekrachiJadActivityTracker.exe	ae2720f237c7d9b7
