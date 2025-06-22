@@ -1,0 +1,2 @@
+CMakeFiles/NekrachiJadActivityTracker.dir/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.obj: \
+ C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\NekrachiJadActivityTracker_autogen\mocs_compilation.cpp

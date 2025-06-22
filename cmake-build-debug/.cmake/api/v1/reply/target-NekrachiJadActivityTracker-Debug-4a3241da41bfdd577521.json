@@ -43,19 +43,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 18,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 21,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 10,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
@@ -226,7 +226,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/include"
+					"path" : "C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/include"
 				},
 				{
 					"backtrace" : 2,
@@ -274,11 +274,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "NekrachiJadActivityTracker_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "NekrachiJadActivityTracker_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "NekrachiJadActivityTracker_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "NekrachiJadActivityTracker::@6890427a1f51a3e7e1df",

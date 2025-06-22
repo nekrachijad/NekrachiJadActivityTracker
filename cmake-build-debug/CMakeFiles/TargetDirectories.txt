@@ -1,5 +1,5 @@
-C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/NekrachiJadActivityTracker.dir
-C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/NekrachiJadActivityTracker_autogen_timestamp_deps.dir
-C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/NekrachiJadActivityTracker_autogen.dir
+C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/NekrachiJadActivityTracker.dir
+C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/NekrachiJadActivityTracker_autogen_timestamp_deps.dir
+C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/NekrachiJadActivityTracker_autogen.dir
