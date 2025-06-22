@@ -433,6 +433,54 @@ gtest_main_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f test\lib\googletest\googletest\CMakeFiles\gtest_main_autogen.dir\build.make test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/build
 .PHONY : gtest_main_autogen/fast
 
+Activity.obj: Activity.cpp.obj
+.PHONY : Activity.obj
+
+# target to build an object file
+Activity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/Activity.cpp.obj
+.PHONY : Activity.cpp.obj
+
+Activity.i: Activity.cpp.i
+.PHONY : Activity.i
+
+# target to preprocess a source file
+Activity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/Activity.cpp.i
+.PHONY : Activity.cpp.i
+
+Activity.s: Activity.cpp.s
+.PHONY : Activity.s
+
+# target to generate assembly for a file
+Activity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/Activity.cpp.s
+.PHONY : Activity.cpp.s
+
+ActivityList.obj: ActivityList.cpp.obj
+.PHONY : ActivityList.obj
+
+# target to build an object file
+ActivityList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/ActivityList.cpp.obj
+.PHONY : ActivityList.cpp.obj
+
+ActivityList.i: ActivityList.cpp.i
+.PHONY : ActivityList.i
+
+# target to preprocess a source file
+ActivityList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/ActivityList.cpp.i
+.PHONY : ActivityList.cpp.i
+
+ActivityList.s: ActivityList.cpp.s
+.PHONY : ActivityList.s
+
+# target to generate assembly for a file
+ActivityList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/ActivityList.cpp.s
+.PHONY : ActivityList.cpp.s
+
 Date.obj: Date.cpp.obj
 .PHONY : Date.obj
 
@@ -483,6 +531,30 @@ NekrachiJadActivityTracker_autogen/mocs_compilation.s: NekrachiJadActivityTracke
 NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.s
 .PHONY : NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.s
+
+Ora.obj: Ora.cpp.obj
+.PHONY : Ora.obj
+
+# target to build an object file
+Ora.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/Ora.cpp.obj
+.PHONY : Ora.cpp.obj
+
+Ora.i: Ora.cpp.i
+.PHONY : Ora.i
+
+# target to preprocess a source file
+Ora.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/Ora.cpp.i
+.PHONY : Ora.cpp.i
+
+Ora.s: Ora.cpp.s
+.PHONY : Ora.s
+
+# target to generate assembly for a file
+Ora.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/Ora.cpp.s
+.PHONY : Ora.cpp.s
 
 core_autogen/mocs_compilation.obj: core_autogen/mocs_compilation.cpp.obj
 .PHONY : core_autogen/mocs_compilation.obj
@@ -565,12 +637,21 @@ help:
 	@echo ... gtest
 	@echo ... gtest_main
 	@echo ... runAllTests
+	@echo ... Activity.obj
+	@echo ... Activity.i
+	@echo ... Activity.s
+	@echo ... ActivityList.obj
+	@echo ... ActivityList.i
+	@echo ... ActivityList.s
 	@echo ... Date.obj
 	@echo ... Date.i
 	@echo ... Date.s
 	@echo ... NekrachiJadActivityTracker_autogen/mocs_compilation.obj
 	@echo ... NekrachiJadActivityTracker_autogen/mocs_compilation.i
 	@echo ... NekrachiJadActivityTracker_autogen/mocs_compilation.s
+	@echo ... Ora.obj
+	@echo ... Ora.i
+	@echo ... Ora.s
 	@echo ... core_autogen/mocs_compilation.obj
 	@echo ... core_autogen/mocs_compilation.i
 	@echo ... core_autogen/mocs_compilation.s

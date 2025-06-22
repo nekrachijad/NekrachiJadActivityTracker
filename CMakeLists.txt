@@ -15,14 +15,9 @@ set(CMAKE_AUTORCC ON)
 
 add_subdirectory(test)
 set(SOURCE_FILES Date.cpp Date.h)
-add_executable(NekrachiJadActivityTracker main.cpp Date.h Date.cpp)
+add_executable(NekrachiJadActivityTracker main.cpp Date.h Date.cpp Activity.h Activity.cpp ActivityList.h ActivityList.cpp Ora.h Ora.cpp)
 add_library(core ${SOURCE_FILES})
 target_link_libraries(NekrachiJadActivityTracker PRIVATE Qt6::Widgets)
-
-
-
-
-
 
 
 

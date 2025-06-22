@@ -66,8 +66,6 @@ int main(int argc, char *argv[]) {
     createButton("Segna attività completata", QString::fromStdString(std::to_string(d->getDay())));
     createButton("Mostra attività non completate", QString::fromStdString(std::to_string(d->getDay())));
     createButton("Mostra tutte le attività", QString::fromStdString(std::to_string(d->getDay())));
-    createButton("Salva su file", QString::fromStdString(std::to_string(d->getDay())));
-    createButton("Carica da file", QString::fromStdString(std::to_string(d->getDay())));
     createButton("Esci", "Chiusura dell'applicazione.");
 
     // Assembla la parte sinistra

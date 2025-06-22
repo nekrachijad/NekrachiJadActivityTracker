@@ -9,8 +9,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "NekrachiJadActivityTracker_autogen/timestamp" "custom" "NekrachiJadActivityTracker_autogen/deps"
+  "C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Activity.cpp" "CMakeFiles/NekrachiJadActivityTracker.dir/Activity.cpp.obj" "gcc" "CMakeFiles/NekrachiJadActivityTracker.dir/Activity.cpp.obj.d"
+  "C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/ActivityList.cpp" "CMakeFiles/NekrachiJadActivityTracker.dir/ActivityList.cpp.obj" "gcc" "CMakeFiles/NekrachiJadActivityTracker.dir/ActivityList.cpp.obj.d"
   "C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Date.cpp" "CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj" "gcc" "CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj.d"
   "C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp" "CMakeFiles/NekrachiJadActivityTracker.dir/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/NekrachiJadActivityTracker.dir/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.obj.d"
+  "C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Ora.cpp" "CMakeFiles/NekrachiJadActivityTracker.dir/Ora.cpp.obj" "gcc" "CMakeFiles/NekrachiJadActivityTracker.dir/Ora.cpp.obj.d"
   "C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/main.cpp" "CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.obj" "gcc" "CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.obj.d"
   )
 
