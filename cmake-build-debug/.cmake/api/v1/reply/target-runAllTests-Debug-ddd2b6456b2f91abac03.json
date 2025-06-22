@@ -97,11 +97,11 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "gtest::@c72fc6c7adf34f6238a3"
+			"id" : "gtest_main::@c72fc6c7adf34f6238a3"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "gtest_main::@c72fc6c7adf34f6238a3"
+			"id" : "gtest::@c72fc6c7adf34f6238a3"
 		},
 		{
 			"backtrace" : 0,

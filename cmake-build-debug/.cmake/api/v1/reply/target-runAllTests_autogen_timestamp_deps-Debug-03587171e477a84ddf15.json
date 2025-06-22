@@ -22,11 +22,11 @@
 		},
 		{
 			"backtrace" : 0,
-			"id" : "gtest::@c72fc6c7adf34f6238a3"
+			"id" : "gtest_main::@c72fc6c7adf34f6238a3"
 		},
 		{
 			"backtrace" : 0,
-			"id" : "gtest_main::@c72fc6c7adf34f6238a3"
+			"id" : "gtest::@c72fc6c7adf34f6238a3"
 		}
 	],
 	"id" : "runAllTests_autogen_timestamp_deps::@36f028580bb02cc8272a",
