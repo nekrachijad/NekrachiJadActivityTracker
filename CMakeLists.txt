@@ -13,10 +13,17 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
+add_subdirectory(test)
+set(SOURCE_FILES Date.cpp Date.h)
 add_executable(NekrachiJadActivityTracker main.cpp Date.h Date.cpp)
-
-
+add_library(core ${SOURCE_FILES})
 target_link_libraries(NekrachiJadActivityTracker PRIVATE Qt6::Widgets)
+
+
+
+
+
+
 
 
 add_custom_command(TARGET NekrachiJadActivityTracker POST_BUILD
@@ -34,3 +41,4 @@ add_custom_command(TARGET NekrachiJadActivityTracker POST_BUILD
         "${Qt6_DIR}/../../../plugins/platforms/qwindows.dll"
         "$<TARGET_FILE_DIR:NekrachiJadActivityTracker>/platforms"
 )
+

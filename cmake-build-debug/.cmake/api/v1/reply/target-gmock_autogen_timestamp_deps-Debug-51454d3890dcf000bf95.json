@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"test/lib/googletest/googlemock/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "gtest::@c72fc6c7adf34f6238a3"
+		}
+	],
+	"id" : "gmock_autogen_timestamp_deps::@d326c8eb0afed721c8fa",
+	"isGeneratorProvided" : true,
+	"name" : "gmock_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "test/lib/googletest/googlemock",
+		"source" : "test/lib/googletest/googlemock"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

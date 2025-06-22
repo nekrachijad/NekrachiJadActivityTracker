@@ -84,6 +84,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"gmock\" \"gtest\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	"C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	"C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	"C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	"C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	"C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	"C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\CMakeFiles C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\\CMakeFiles\progress.marks
@@ -129,6 +174,19 @@ NekrachiJadActivityTracker/fast:
 .PHONY : NekrachiJadActivityTracker/fast
 
 #=============================================================================
+# Target rules for targets named core
+
+# Build rule for target.
+core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 core
+.PHONY : core
+
+# fast build rule for target.
+core/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/build
+.PHONY : core/fast
+
+#=============================================================================
 # Target rules for targets named NekrachiJadActivityTracker_autogen_timestamp_deps
 
 # Build rule for target.
@@ -154,12 +212,234 @@ NekrachiJadActivityTracker_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker_autogen.dir\build.make CMakeFiles/NekrachiJadActivityTracker_autogen.dir/build
 .PHONY : NekrachiJadActivityTracker_autogen/fast
 
+#=============================================================================
+# Target rules for targets named core_autogen_timestamp_deps
+
+# Build rule for target.
+core_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 core_autogen_timestamp_deps
+.PHONY : core_autogen_timestamp_deps
+
+# fast build rule for target.
+core_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core_autogen_timestamp_deps.dir\build.make CMakeFiles/core_autogen_timestamp_deps.dir/build
+.PHONY : core_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named core_autogen
+
+# Build rule for target.
+core_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 core_autogen
+.PHONY : core_autogen
+
+# fast build rule for target.
+core_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core_autogen.dir\build.make CMakeFiles/core_autogen.dir/build
+.PHONY : core_autogen/fast
+
+#=============================================================================
+# Target rules for targets named runAllTests
+
+# Build rule for target.
+runAllTests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 runAllTests
+.PHONY : runAllTests
+
+# fast build rule for target.
+runAllTests/fast:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/build
+.PHONY : runAllTests/fast
+
+#=============================================================================
+# Target rules for targets named runAllTests_autogen_timestamp_deps
+
+# Build rule for target.
+runAllTests_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 runAllTests_autogen_timestamp_deps
+.PHONY : runAllTests_autogen_timestamp_deps
+
+# fast build rule for target.
+runAllTests_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests_autogen_timestamp_deps.dir\build.make test/CMakeFiles/runAllTests_autogen_timestamp_deps.dir/build
+.PHONY : runAllTests_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named runAllTests_autogen
+
+# Build rule for target.
+runAllTests_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 runAllTests_autogen
+.PHONY : runAllTests_autogen
+
+# fast build rule for target.
+runAllTests_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests_autogen.dir\build.make test/CMakeFiles/runAllTests_autogen.dir/build
+.PHONY : runAllTests_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f test\lib\googletest\googlemock\CMakeFiles\gmock.dir\build.make test/lib/googletest/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f test\lib\googletest\googlemock\CMakeFiles\gmock_main.dir\build.make test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gmock_autogen_timestamp_deps
+
+# Build rule for target.
+gmock_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_autogen_timestamp_deps
+.PHONY : gmock_autogen_timestamp_deps
+
+# fast build rule for target.
+gmock_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f test\lib\googletest\googlemock\CMakeFiles\gmock_autogen_timestamp_deps.dir\build.make test/lib/googletest/googlemock/CMakeFiles/gmock_autogen_timestamp_deps.dir/build
+.PHONY : gmock_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named gmock_autogen
+
+# Build rule for target.
+gmock_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_autogen
+.PHONY : gmock_autogen
+
+# fast build rule for target.
+gmock_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f test\lib\googletest\googlemock\CMakeFiles\gmock_autogen.dir\build.make test/lib/googletest/googlemock/CMakeFiles/gmock_autogen.dir/build
+.PHONY : gmock_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main_autogen_timestamp_deps
+
+# Build rule for target.
+gmock_main_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main_autogen_timestamp_deps
+.PHONY : gmock_main_autogen_timestamp_deps
+
+# fast build rule for target.
+gmock_main_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f test\lib\googletest\googlemock\CMakeFiles\gmock_main_autogen_timestamp_deps.dir\build.make test/lib/googletest/googlemock/CMakeFiles/gmock_main_autogen_timestamp_deps.dir/build
+.PHONY : gmock_main_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main_autogen
+
+# Build rule for target.
+gmock_main_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main_autogen
+.PHONY : gmock_main_autogen
+
+# fast build rule for target.
+gmock_main_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f test\lib\googletest\googlemock\CMakeFiles\gmock_main_autogen.dir\build.make test/lib/googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/build
+.PHONY : gmock_main_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f test\lib\googletest\googletest\CMakeFiles\gtest.dir\build.make test/lib/googletest/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f test\lib\googletest\googletest\CMakeFiles\gtest_main.dir\build.make test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest_autogen_timestamp_deps
+
+# Build rule for target.
+gtest_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_autogen_timestamp_deps
+.PHONY : gtest_autogen_timestamp_deps
+
+# fast build rule for target.
+gtest_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f test\lib\googletest\googletest\CMakeFiles\gtest_autogen_timestamp_deps.dir\build.make test/lib/googletest/googletest/CMakeFiles/gtest_autogen_timestamp_deps.dir/build
+.PHONY : gtest_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named gtest_autogen
+
+# Build rule for target.
+gtest_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_autogen
+.PHONY : gtest_autogen
+
+# fast build rule for target.
+gtest_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f test\lib\googletest\googletest\CMakeFiles\gtest_autogen.dir\build.make test/lib/googletest/googletest/CMakeFiles/gtest_autogen.dir/build
+.PHONY : gtest_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main_autogen_timestamp_deps
+
+# Build rule for target.
+gtest_main_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main_autogen_timestamp_deps
+.PHONY : gtest_main_autogen_timestamp_deps
+
+# fast build rule for target.
+gtest_main_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f test\lib\googletest\googletest\CMakeFiles\gtest_main_autogen_timestamp_deps.dir\build.make test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen_timestamp_deps.dir/build
+.PHONY : gtest_main_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main_autogen
+
+# Build rule for target.
+gtest_main_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main_autogen
+.PHONY : gtest_main_autogen
+
+# fast build rule for target.
+gtest_main_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f test\lib\googletest\googletest\CMakeFiles\gtest_main_autogen.dir\build.make test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/build
+.PHONY : gtest_main_autogen/fast
+
 Date.obj: Date.cpp.obj
 .PHONY : Date.obj
 
 # target to build an object file
 Date.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Date.cpp.obj
 .PHONY : Date.cpp.obj
 
 Date.i: Date.cpp.i
@@ -168,6 +448,7 @@ Date.i: Date.cpp.i
 # target to preprocess a source file
 Date.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Date.cpp.i
 .PHONY : Date.cpp.i
 
 Date.s: Date.cpp.s
@@ -176,6 +457,7 @@ Date.s: Date.cpp.s
 # target to generate assembly for a file
 Date.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Date.cpp.s
 .PHONY : Date.cpp.s
 
 NekrachiJadActivityTracker_autogen/mocs_compilation.obj: NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.obj
@@ -201,6 +483,30 @@ NekrachiJadActivityTracker_autogen/mocs_compilation.s: NekrachiJadActivityTracke
 NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.s
 .PHONY : NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.s
+
+core_autogen/mocs_compilation.obj: core_autogen/mocs_compilation.cpp.obj
+.PHONY : core_autogen/mocs_compilation.obj
+
+# target to build an object file
+core_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.obj
+.PHONY : core_autogen/mocs_compilation.cpp.obj
+
+core_autogen/mocs_compilation.i: core_autogen/mocs_compilation.cpp.i
+.PHONY : core_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+core_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.i
+.PHONY : core_autogen/mocs_compilation.cpp.i
+
+core_autogen/mocs_compilation.s: core_autogen/mocs_compilation.cpp.s
+.PHONY : core_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+core_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.s
+.PHONY : core_autogen/mocs_compilation.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -233,16 +539,41 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... NekrachiJadActivityTracker_autogen
 	@echo ... NekrachiJadActivityTracker_autogen_timestamp_deps
+	@echo ... core_autogen
+	@echo ... core_autogen_timestamp_deps
+	@echo ... gmock_autogen
+	@echo ... gmock_autogen_timestamp_deps
+	@echo ... gmock_main_autogen
+	@echo ... gmock_main_autogen_timestamp_deps
+	@echo ... gtest_autogen
+	@echo ... gtest_autogen_timestamp_deps
+	@echo ... gtest_main_autogen
+	@echo ... gtest_main_autogen_timestamp_deps
+	@echo ... runAllTests_autogen
+	@echo ... runAllTests_autogen_timestamp_deps
 	@echo ... NekrachiJadActivityTracker
+	@echo ... core
+	@echo ... gmock
+	@echo ... gmock_main
+	@echo ... gtest
+	@echo ... gtest_main
+	@echo ... runAllTests
 	@echo ... Date.obj
 	@echo ... Date.i
 	@echo ... Date.s
 	@echo ... NekrachiJadActivityTracker_autogen/mocs_compilation.obj
 	@echo ... NekrachiJadActivityTracker_autogen/mocs_compilation.i
 	@echo ... NekrachiJadActivityTracker_autogen/mocs_compilation.s
+	@echo ... core_autogen/mocs_compilation.obj
+	@echo ... core_autogen/mocs_compilation.i
+	@echo ... core_autogen/mocs_compilation.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
