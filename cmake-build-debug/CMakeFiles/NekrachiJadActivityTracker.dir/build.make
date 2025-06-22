@@ -105,16 +105,33 @@ CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\main.cpp -o CMakeFiles\NekrachiJadActivityTracker.dir\main.cpp.s
 
+CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj: CMakeFiles/NekrachiJadActivityTracker.dir/flags.make
+CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj: CMakeFiles/NekrachiJadActivityTracker.dir/includes_CXX.rsp
+CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj: C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Date.cpp
+CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj: CMakeFiles/NekrachiJadActivityTracker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj -MF CMakeFiles\NekrachiJadActivityTracker.dir\Date.cpp.obj.d -o CMakeFiles\NekrachiJadActivityTracker.dir\Date.cpp.obj -c C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\Date.cpp
+
+CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\Date.cpp > CMakeFiles\NekrachiJadActivityTracker.dir\Date.cpp.i
+
+CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\Date.cpp -o CMakeFiles\NekrachiJadActivityTracker.dir\Date.cpp.s
+
 # Object files for target NekrachiJadActivityTracker
 NekrachiJadActivityTracker_OBJECTS = \
 "CMakeFiles/NekrachiJadActivityTracker.dir/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.obj" \
-"CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.obj"
+"CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.obj" \
+"CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj"
 
 # External object files for target NekrachiJadActivityTracker
 NekrachiJadActivityTracker_EXTERNAL_OBJECTS =
 
 NekrachiJadActivityTracker.exe: CMakeFiles/NekrachiJadActivityTracker.dir/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.obj
 NekrachiJadActivityTracker.exe: CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.obj
+NekrachiJadActivityTracker.exe: CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj
 NekrachiJadActivityTracker.exe: CMakeFiles/NekrachiJadActivityTracker.dir/build.make
 NekrachiJadActivityTracker.exe: C:/Qt/6.9.1/mingw_64/lib/libQt6Widgets.a
 NekrachiJadActivityTracker.exe: C:/Qt/6.9.1/mingw_64/lib/libQt6Gui.a
@@ -122,7 +139,7 @@ NekrachiJadActivityTracker.exe: C:/Qt/6.9.1/mingw_64/lib/libQt6Core.a
 NekrachiJadActivityTracker.exe: CMakeFiles/NekrachiJadActivityTracker.dir/linkLibs.rsp
 NekrachiJadActivityTracker.exe: CMakeFiles/NekrachiJadActivityTracker.dir/objects1.rsp
 NekrachiJadActivityTracker.exe: CMakeFiles/NekrachiJadActivityTracker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable NekrachiJadActivityTracker.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable NekrachiJadActivityTracker.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\NekrachiJadActivityTracker.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/../../../bin/Qt6Core.dll C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/../../../bin/Qt6Gui.dll C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/../../../bin/Qt6Widgets.dll C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug
 	"C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E make_directory C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/platforms

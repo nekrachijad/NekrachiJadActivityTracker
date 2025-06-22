@@ -13,7 +13,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
-add_executable(NekrachiJadActivityTracker main.cpp)
+add_executable(NekrachiJadActivityTracker main.cpp Date.h Date.cpp)
 
 
 target_link_libraries(NekrachiJadActivityTracker PRIVATE Qt6::Widgets)

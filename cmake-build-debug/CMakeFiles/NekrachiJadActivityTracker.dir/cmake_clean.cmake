@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/NekrachiJadActivityTracker_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/NekrachiJadActivityTracker_autogen.dir/ParseCache.txt"
   "NekrachiJadActivityTracker_autogen"
+  "CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj"
+  "CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj.d"
   "CMakeFiles/NekrachiJadActivityTracker.dir/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/NekrachiJadActivityTracker.dir/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.obj"

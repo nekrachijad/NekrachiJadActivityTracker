@@ -1,7 +1,7 @@
 //
 // Created by jadne on 12/06/2025.
 //
-
+#include <iostream>
 #include "Date.h"
 
 Date::Date(int d, int m, int y){
@@ -32,4 +32,8 @@ int Date::getYear() const {
 
 void Date::setYear(int year) {
     this->year = year;
+}
+
+inline std::string Date::printData() const {
+    return std::to_string(day)  + "/" + std::to_string(month) + "/" + std::to_string(year);
 }

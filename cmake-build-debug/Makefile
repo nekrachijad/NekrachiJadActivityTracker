@@ -154,6 +154,30 @@ NekrachiJadActivityTracker_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker_autogen.dir\build.make CMakeFiles/NekrachiJadActivityTracker_autogen.dir/build
 .PHONY : NekrachiJadActivityTracker_autogen/fast
 
+Date.obj: Date.cpp.obj
+.PHONY : Date.obj
+
+# target to build an object file
+Date.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj
+.PHONY : Date.cpp.obj
+
+Date.i: Date.cpp.i
+.PHONY : Date.i
+
+# target to preprocess a source file
+Date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.i
+.PHONY : Date.cpp.i
+
+Date.s: Date.cpp.s
+.PHONY : Date.s
+
+# target to generate assembly for a file
+Date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NekrachiJadActivityTracker.dir\build.make CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.s
+.PHONY : Date.cpp.s
+
 NekrachiJadActivityTracker_autogen/mocs_compilation.obj: NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.obj
 .PHONY : NekrachiJadActivityTracker_autogen/mocs_compilation.obj
 
@@ -213,6 +237,9 @@ help:
 	@echo ... NekrachiJadActivityTracker_autogen
 	@echo ... NekrachiJadActivityTracker_autogen_timestamp_deps
 	@echo ... NekrachiJadActivityTracker
+	@echo ... Date.obj
+	@echo ... Date.i
+	@echo ... Date.s
 	@echo ... NekrachiJadActivityTracker_autogen/mocs_compilation.obj
 	@echo ... NekrachiJadActivityTracker_autogen/mocs_compilation.i
 	@echo ... NekrachiJadActivityTracker_autogen/mocs_compilation.s
