@@ -10,10 +10,13 @@
 #include "Date.h"
 
 class ActivityList {
-private:
+protected:
     std::vector<Activity> activities;
 
 public:
+    ActivityList()=default;
+
+    virtual ~ActivityList()=default;
     void addActivity(const Activity& activity);
 
     std::vector<Activity> getActivitiesByDate(const Date& date) const;

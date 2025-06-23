@@ -33,11 +33,12 @@ public:
         this->minuti = minuti;
     }
 
-    int inMinuti() const;
+    int calcolaMinuti() const;
 
     bool operator<(const Ora &other) const;
 
     bool operator>=(const Ora &other) const;
+
     int operator-(const Ora& altra) const;
 };
 

@@ -5,76 +5,207 @@
 #include <QPushButton>
 #include <QLabel>
 #include <QFrame>
+#include <QDialog>
+#include <QLineEdit>
+#include <QDateEdit>
+#include <QTimeEdit>
+#include <QTextEdit>
 
 #include "Date.h"
+#include "Ora.h"
+#include "Activity.h"
+#include "ActivityList.h"
 
 int main(int argc, char *argv[]) {
-    Date *d=new Date(5,5,2005);
     QApplication app(argc, argv);
 
+    // Registro attività globale
+    ActivityList activityList;
+
     QWidget window;
-    window.setWindowTitle("ToDo List - Registro attività");
+    window.setWindowTitle("ActivityTracker");
     window.resize(1200, 700);
 
-    // Layout principale orizzontale
     QHBoxLayout *mainLayout = new QHBoxLayout(&window);
-
-    // Colonna sinistra (titolo + pulsanti)
     QVBoxLayout *leftLayout = new QVBoxLayout();
 
-    // Titolo
     QLabel *titleLabel = new QLabel("Benvenuto nel tuo Registro Attività!");
     titleLabel->setStyleSheet("font-size: 32px; font-weight: bold;");
     titleLabel->setAlignment(Qt::AlignCenter);
 
-    // Sottotitolo
     QLabel *subtitle = new QLabel("Seleziona un'opzione per continuare:");
     subtitle->setStyleSheet("font-size: 22px; font-weight: bold;");
-    subtitle->setAlignment(Qt::AlignCenter);
+    //subtitle->setAlignment(Qt::AlignCenter);
 
-    // Separatore
     QFrame *line = new QFrame();
     line->setFrameShape(QFrame::HLine);
     line->setFrameShadow(QFrame::Sunken);
 
-    // Layout dei bottoni
     QVBoxLayout *buttonLayout = new QVBoxLayout();
 
-    // Etichetta a destra per mostrare l'azione selezionata
     QLabel *actionLabel = new QLabel("Qui verrà mostrata l'azione selezionata.");
-    actionLabel->setStyleSheet("font-size: 18px; color: #333; background-color: #f0f0f0; padding: 10px; border: 1px solid #ccc;");
+    actionLabel->setStyleSheet(
+        "font-size: 18px; color: #333; background-color: #f0f0f0; padding: 10px; border: 1px solid #ccc;");
     actionLabel->setAlignment(Qt::AlignTop | Qt::AlignLeft);
     actionLabel->setWordWrap(true);
 
-    // Funzione per creare un bottone standard
-    auto createButton = [&](const QString &text, const QString &message) {
+    // Funzione per creare un bottone
+    auto createButton = [&](const QString &text, std::function<void()> callback) {
         QPushButton *btn = new QPushButton(text);
-        btn->setMinimumHeight(40);
-        btn->setMaximumWidth(400);
+        //btn->setMinimumHeight(40);
+        //btn->setMaximumWidth(400);
         btn->setStyleSheet("font-size: 16px;");
-        QObject::connect(btn, &QPushButton::clicked, [=]() {
-            actionLabel->setText(message);
-        });
+        QObject::connect(btn, &QPushButton::clicked, callback);
         buttonLayout->addWidget(btn);
     };
 
-    // Pulsanti con azioni
-    createButton("Crea una nuova lista attività", QString::fromStdString(std::to_string(d->getDay())));
-    createButton("Aggiungi una nuova attività", QString::fromStdString(std::to_string(d->getDay())));
-    createButton("Rimuovi un'attività", QString::fromStdString(std::to_string(d->getDay())));
-    createButton("Modifica un'attività", QString::fromStdString(std::to_string(d->getDay())));
-    createButton("Segna attività completata", QString::fromStdString(std::to_string(d->getDay())));
-    createButton("Mostra attività non completate", QString::fromStdString(std::to_string(d->getDay())));
-    createButton("Mostra tutte le attività", QString::fromStdString(std::to_string(d->getDay())));
-    createButton("Esci", "Chiusura dell'applicazione.");
+    // === Aggiungi attività ===============================================================================
+    createButton("Aggiungi una nuova attività", [&]() {
+        QDialog dialog(&window);
+        dialog.setWindowTitle("Aggiungi Attività");
 
-    // Assembla la parte sinistra
+        // Dimensione finestra circa 60% della finestra principale
+        dialog.resize(window.width() * 0.6, window.height() * 0.6);
+
+        QVBoxLayout *layout = new QVBoxLayout(&dialog);
+
+        // Descrizione
+        QLabel *descLabel = new QLabel("Descrizione:");
+        QTextEdit *descEdit = new QTextEdit();
+        descEdit->setMinimumHeight(100); // Più grande in altezza
+        descEdit->setPlaceholderText("Inserisci qui la descrizione dettagliata...");
+
+        // Data
+        QLabel *dateLabel = new QLabel("Data:");
+        QDateEdit *dateEdit = new QDateEdit(QDate::currentDate());
+        dateEdit->setCalendarPopup(true);
+
+        // Ora inizio
+        QLabel *startLabel = new QLabel("Ora Inizio:");
+        QTimeEdit *startTimeEdit = new QTimeEdit(QTime::currentTime());
+
+        // Ora fine
+        QLabel *endLabel = new QLabel("Ora Fine:");
+        QTimeEdit *endTimeEdit = new QTimeEdit(QTime::currentTime().addSecs(3600)); // Default +1 ora
+
+        // Pulsanti
+        QPushButton *okButton = new QPushButton("Aggiungi");
+        QPushButton *cancelButton = new QPushButton("Annulla");
+
+        // Layout componenti
+        layout->addWidget(descLabel);
+        layout->addWidget(descEdit);
+        layout->addWidget(dateLabel);
+        layout->addWidget(dateEdit);
+        layout->addWidget(startLabel);
+        layout->addWidget(startTimeEdit);
+        layout->addWidget(endLabel);
+        layout->addWidget(endTimeEdit);
+
+        QHBoxLayout *buttonLayout = new QHBoxLayout();
+        buttonLayout->addWidget(okButton);
+        buttonLayout->addWidget(cancelButton);
+        layout->addLayout(buttonLayout);
+
+        QObject::connect(okButton, &QPushButton::clicked, [&]() {
+            QString desc = descEdit->toPlainText();
+            QDate qdate = dateEdit->date();
+            QTime qstart = startTimeEdit->time();
+            QTime qend = endTimeEdit->time();
+
+            try {
+                Activity nuova(desc.toStdString(),
+                               Ora(qstart.hour(), qstart.minute()),
+                               Ora(qend.hour(), qend.minute()),
+                               Date(qdate.day(), qdate.month(), qdate.year()));
+
+                activityList.addActivity(nuova);
+                actionLabel->setText("Attività aggiunta con successo.");
+                dialog.accept();
+            } catch (std::invalid_argument &e) {
+                actionLabel->setText("Errore: " + QString::fromStdString(e.what()));
+            }
+        });
+
+        QObject::connect(cancelButton, &QPushButton::clicked, &dialog, &QDialog::reject);
+
+        dialog.exec();
+    });
+
+
+    // === Mostra attività per una data =====================================================================
+    createButton("Mostra attività per una data", [&]() {
+        QDialog dialog(&window);
+        dialog.setWindowTitle("Mostra Attività");
+
+        QVBoxLayout *layout = new QVBoxLayout(&dialog);
+
+        QLabel *dateLabel = new QLabel("Seleziona la data:");
+        QDateEdit *dateEdit = new QDateEdit(QDate::currentDate());
+        dateEdit->setCalendarPopup(true);
+
+        QPushButton *okButton = new QPushButton("Mostra");
+        QPushButton *cancelButton = new QPushButton("Annulla");
+
+        layout->addWidget(dateLabel);
+        layout->addWidget(dateEdit);
+
+        QHBoxLayout *buttonLayout = new QHBoxLayout();
+        buttonLayout->addWidget(okButton);
+        buttonLayout->addWidget(cancelButton);
+        layout->addLayout(buttonLayout);
+
+        QObject::connect(okButton, &QPushButton::clicked, [&]() {
+            QDate qdate = dateEdit->date();
+            Date d(qdate.day(), qdate.month(), qdate.year());
+            auto activities = activityList.getActivitiesByDate(d);
+
+            if (activities.empty()) {
+                actionLabel->setText("Nessuna attività trovata per questa data.");
+            } else {
+                QString msg = "Attività per " + QString::number(qdate.day()) + "/" +
+                              QString::number(qdate.month()) + "/" +
+                              QString::number(qdate.year()) + ":\n";
+
+                for (const auto &act: activities) {
+                    msg += "- " + QString::fromStdString(act.getDescription()) + " [" +
+                            QString::number(act.getInizio().getOre()) + ":" +
+                            QString::number(act.getInizio().getMinuti()).rightJustified(2, '0') + " - " +
+                            QString::number(act.getFine().getOre()) + ":" +
+                            QString::number(act.getFine().getMinuti()).rightJustified(2, '0') + "]\n";
+                }
+
+                actionLabel->setText(msg);
+            }
+
+            dialog.accept();
+        });
+
+        QObject::connect(cancelButton, &QPushButton::clicked, &dialog, &QDialog::reject);
+
+        dialog.exec();
+    });
+
+
+    // === Placeholder per altre funzionalità future ===================================================================
+    createButton("Rimuovi un'attività", [&]() {
+        actionLabel->setText("Funzione 'Rimuovi attività' non ancora implementata.");
+    });
+
+    createButton("Modifica un'attività", [&]() {
+        actionLabel->setText("Funzione 'Modifica attività' non ancora implementata.");
+    });
+
+    createButton("Esci", [&]() {
+        app.quit();
+    });
+
+    // Assembla UI
     leftLayout->addWidget(titleLabel);
     leftLayout->addWidget(subtitle);
     leftLayout->addWidget(line);
     leftLayout->addLayout(buttonLayout);
 
-    // Aggiungi le due colonne al layout principale
     mainLayout->addLayout(leftLayout);
     mainLayout->addWidget(actionLabel);
 
@@ -83,6 +214,3 @@ int main(int argc, char *argv[]) {
 
     return app.exec();
 }
-
-
-

@@ -12,18 +12,18 @@ Ora::Ora(int h, int m) {
     minuti = m;
 }
 
-int Ora::inMinuti() const {
+int Ora::calcolaMinuti() const {
     return ore * 60 + minuti;
 }
 
 bool Ora::operator<(const Ora &other) const {
-    return inMinuti() < other.inMinuti();
+    return calcolaMinuti() < other.calcolaMinuti();
 }
 
 bool Ora::operator>=(const Ora &other) const {
-    return inMinuti() >= other.inMinuti();
+    return calcolaMinuti() >= other.calcolaMinuti();
 }
 
 inline int Ora::operator-(const Ora &altra) const {
-    return this->inMinuti() - altra.inMinuti();
+    return this->calcolaMinuti() - altra.calcolaMinuti();
 }

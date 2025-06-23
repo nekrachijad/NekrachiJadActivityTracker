@@ -22,6 +22,8 @@ public:
 
     Activity()=default;
 
+    virtual ~Activity()=default;
+
     std::string getDescription() const {
         return description;
     }

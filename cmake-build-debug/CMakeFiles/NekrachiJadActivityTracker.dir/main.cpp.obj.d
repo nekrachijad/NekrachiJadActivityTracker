@@ -455,4 +455,28 @@ CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qurl.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QFrame \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qframe.h \
- C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\Date.h
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/QDialog \
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/QLineEdit \
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/qlineedit.h \
+ C:/Qt/6.9.1/mingw_64/include/QtGui/qtextcursor.h \
+ C:/Qt/6.9.1/mingw_64/include/QtGui/qtextformat.h \
+ C:/Qt/6.9.1/mingw_64/include/QtGui/qpen.h \
+ C:/Qt/6.9.1/mingw_64/include/QtGui/qtextoption.h \
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/QDateEdit \
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/qdatetimeedit.h \
+ C:/Qt/6.9.1/mingw_64/include/QtCore/qtimezone.h \
+ C:/Qt/6.9.1/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.9.1/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+ C:/Qt/6.9.1/mingw_64/include/QtGui/qvalidator.h \
+ C:/Qt/6.9.1/mingw_64/include/QtCore/qregularexpression.h \
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/QTimeEdit \
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/QTextEdit \
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/qtextedit.h \
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\Date.h \
+ C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\Ora.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
+ C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\Activity.h \
+ C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\ActivityList.h

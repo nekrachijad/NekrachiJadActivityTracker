@@ -5,7 +5,7 @@
 #include "gtest/gtest.h"
 #include "../Date.h"
 
-TEST(DateTest, ConstructorTest) {
+TEST(DateFixture, ConstructorTest) {
     Date date(15, 9, 2000);
     EXPECT_EQ(date.getDay(), 15);
     EXPECT_EQ(date.getMonth(), 9);
