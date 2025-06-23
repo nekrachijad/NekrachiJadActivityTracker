@@ -10,6 +10,7 @@
 #include <QDateEdit>
 #include <QTimeEdit>
 #include <QTextEdit>
+#include <QInputDialog>
 
 #include "Date.h"
 #include "Ora.h"
@@ -187,14 +188,135 @@ int main(int argc, char *argv[]) {
     });
 
 
-    // === Placeholder per altre funzionalità future ===================================================================
+
+    // === Rimuovi un'attività ========================================================================
     createButton("Rimuovi un'attività", [&]() {
-        actionLabel->setText("Funzione 'Rimuovi attività' non ancora implementata.");
-    });
+    if (activityList.getAllActivities().empty()) {
+        actionLabel->setText("Non ci sono attività da rimuovere.");
+        return;
+    }
+
+    QStringList items;
+    for (size_t i = 0; i < activityList.getAllActivities().size(); ++i) {
+        const Activity& act = activityList.getAllActivities()[i];
+        QString desc = QString::fromStdString(act.getDescription()) + " [" +
+                       QString::number(act.getData().getDay()) + "/" +
+                       QString::number(act.getData().getMonth()) + "/" +
+                       QString::number(act.getData().getMonth()) + " " +
+                       QString::number(act.getInizio().getOre()) + ":" +
+                       QString::number(act.getInizio().getMinuti()).rightJustified(2, '0') + " - " +
+                       QString::number(act.getFine().getOre()) + ":" +
+                       QString::number(act.getFine().getMinuti()).rightJustified(2, '0') + "]";
+        items << desc;
+    }
+
+    bool ok;
+    QString selected = QInputDialog::getItem(&window, "Rimuovi Attività",
+                                             "Seleziona attività da rimuovere:", items, 0, false, &ok);
+
+    if (ok && !selected.isEmpty()) {
+        int index = items.indexOf(selected);
+        activityList.removeActivity(index);
+        actionLabel->setText("Attività rimossa con successo.");
+    }
+});
+
+    // === Rimuovi un'attività ===========================================================================
+
 
     createButton("Modifica un'attività", [&]() {
-        actionLabel->setText("Funzione 'Modifica attività' non ancora implementata.");
-    });
+    if (activityList.getAllActivities().empty()) {
+        actionLabel->setText("Non ci sono attività da modificare.");
+        return;
+    }
+
+    QStringList items;
+    for (size_t i = 0; i < activityList.getAllActivities().size(); ++i) {
+        const Activity& act = activityList.getAllActivities()[i];
+        QString desc = QString::fromStdString(act.getDescription()) + " [" +
+                       QString::number(act.getData().getDay()) + "/" +
+                       QString::number(act.getData().getMonth()) + "/" +
+                       QString::number(act.getData().getYear()) + " " +
+                       QString::number(act.getInizio().getOre()) + ":" +
+                       QString::number(act.getInizio().getMinuti()).rightJustified(2, '0') + " - " +
+                       QString::number(act.getFine().getOre()) + ":" +
+                       QString::number(act.getFine().getMinuti()).rightJustified(2, '0') + "]";
+        items << desc;
+    }
+
+    bool ok;
+    QString selected = QInputDialog::getItem(&window, "Modifica Attività",
+                                             "Seleziona attività da modificare:", items, 0, false, &ok);
+
+    if (ok && !selected.isEmpty()) {
+        int index = items.indexOf(selected);
+        const Activity& oldActivity = activityList.getAllActivities()[index];
+
+        QDialog dialog(&window);
+        dialog.setWindowTitle("Modifica Attività");
+
+        QVBoxLayout* layout = new QVBoxLayout(&dialog);
+
+        QLabel* descLabel = new QLabel("Descrizione:");
+        QLineEdit* descEdit = new QLineEdit(QString::fromStdString(oldActivity.getDescription()));
+
+        QLabel* dateLabel = new QLabel("Data:");
+        QDateEdit* dateEdit = new QDateEdit(QDate(oldActivity.getData().getYear(),
+                                                   oldActivity.getData().getMonth(),
+                                                   oldActivity.getData().getDay()));
+        dateEdit->setCalendarPopup(true);
+
+        QLabel* startLabel = new QLabel("Ora Inizio:");
+        QTimeEdit* startTimeEdit = new QTimeEdit(QTime(oldActivity.getInizio().getOre(),
+                                                        oldActivity.getInizio().getMinuti()));
+
+        QLabel* endLabel = new QLabel("Ora Fine:");
+        QTimeEdit* endTimeEdit = new QTimeEdit(QTime(oldActivity.getFine().getOre(),
+                                                     oldActivity.getFine().getMinuti()));
+
+        QPushButton* okButton = new QPushButton("Salva");
+        QPushButton* cancelButton = new QPushButton("Annulla");
+
+        layout->addWidget(descLabel);
+        layout->addWidget(descEdit);
+        layout->addWidget(dateLabel);
+        layout->addWidget(dateEdit);
+        layout->addWidget(startLabel);
+        layout->addWidget(startTimeEdit);
+        layout->addWidget(endLabel);
+        layout->addWidget(endTimeEdit);
+
+        QHBoxLayout* buttonLayout = new QHBoxLayout();
+        buttonLayout->addWidget(okButton);
+        buttonLayout->addWidget(cancelButton);
+        layout->addLayout(buttonLayout);
+
+        QObject::connect(okButton, &QPushButton::clicked, [&]() {
+            QString desc = descEdit->text();
+            QDate qdate = dateEdit->date();
+            QTime qstart = startTimeEdit->time();
+            QTime qend = endTimeEdit->time();
+
+            try {
+                Activity nuova(desc.toStdString(),
+                               Ora(qstart.hour(), qstart.minute()),
+                               Ora(qend.hour(), qend.minute()),
+                               Date(qdate.day(), qdate.month(), qdate.year()));
+
+                activityList.modifyActivity(index, nuova);
+                actionLabel->setText("Attività modificata con successo.");
+                dialog.accept();
+            } catch (std::invalid_argument& e) {
+                actionLabel->setText("Errore: " + QString::fromStdString(e.what()));
+            }
+        });
+
+        QObject::connect(cancelButton, &QPushButton::clicked, &dialog, &QDialog::reject);
+
+        dialog.exec();
+    }
+});
+
 
     createButton("Esci", [&]() {
         app.quit();

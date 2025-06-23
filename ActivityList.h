@@ -14,14 +14,29 @@ protected:
     std::vector<Activity> activities;
 
 public:
-    ActivityList()=default;
+    ActivityList() = default;
 
-    virtual ~ActivityList()=default;
-    void addActivity(const Activity& activity);
+    virtual ~ActivityList() = default;
 
-    std::vector<Activity> getActivitiesByDate(const Date& date) const;
+    void addActivity(const Activity &activity);
 
-    void printActivitiesByDate(const Date& date) const;
+    std::vector<Activity> getActivitiesByDate(const Date &date) const;
+
+    void printActivitiesByDate(const Date &date) const;
+
+    std::vector<Activity> getAllActivities() const { return activities; }
+
+    void removeActivity(int index) {
+        if (index >= 0 && index < activities.size()) {
+            activities.erase(activities.begin() + index);
+        }
+    }
+    void modifyActivity(int index, const Activity& nuova) {
+        if (index >= 0 && index < activities.size()) {
+            activities[index] = nuova;
+        }
+    }
+
 };
 
 #endif // ACTIVITYLIST_H

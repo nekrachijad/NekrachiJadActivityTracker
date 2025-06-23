@@ -42,4 +42,6 @@ void ActivityList::printActivitiesByDate(const Date& date) const {
                   << " alle " << activity.getFine().getOre() << ":" << activity.getFine().getMinuti()
                   << "\n";
     }
+
+
 }

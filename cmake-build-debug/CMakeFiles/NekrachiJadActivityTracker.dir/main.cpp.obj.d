@@ -475,6 +475,10 @@ CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QTextEdit \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qtextedit.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/QInputDialog \
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/qinputdialog.h \
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/qlineedit.h \
+ C:/Qt/6.9.1/mingw_64/include/QtWidgets/qdialog.h \
  C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\Date.h \
  C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\Ora.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
