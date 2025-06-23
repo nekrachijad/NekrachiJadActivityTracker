@@ -68,18 +68,11 @@ include test/CMakeFiles/runAllTests.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/runAllTests.dir/flags.make
 
-test/runAllTests_autogen/timestamp: C:/Qt/6.9.1/mingw_64/bin/moc.exe
-test/runAllTests_autogen/timestamp: C:/Qt/6.9.1/mingw_64/bin/uic.exe
-test/runAllTests_autogen/timestamp: test/CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target runAllTests"
-	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autogen C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/CMakeFiles/runAllTests_autogen.dir/AutogenInfo.json Debug
-	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/runAllTests_autogen/timestamp
-
 test/CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.obj: test/CMakeFiles/runAllTests.dir/flags.make
 test/CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.obj: test/CMakeFiles/runAllTests.dir/includes_CXX.rsp
 test/CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.obj: test/runAllTests_autogen/mocs_compilation.cpp
 test/CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.obj: test/CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.obj"
 	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\runAllTests.dir\runAllTests_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\runAllTests.dir\runAllTests_autogen\mocs_compilation.cpp.obj -c C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\runAllTests_autogen\mocs_compilation.cpp
 
 test/CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.i: cmake_force
@@ -90,48 +83,14 @@ test/CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.s"
 	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\runAllTests_autogen\mocs_compilation.cpp -o CMakeFiles\runAllTests.dir\runAllTests_autogen\mocs_compilation.cpp.s
 
-test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj: test/CMakeFiles/runAllTests.dir/flags.make
-test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj: test/CMakeFiles/runAllTests.dir/includes_CXX.rsp
-test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj: C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/runAllTests.cpp
-test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj: test/CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj"
-	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj -MF CMakeFiles\runAllTests.dir\runAllTests.cpp.obj.d -o CMakeFiles\runAllTests.dir\runAllTests.cpp.obj -c C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\test\runAllTests.cpp
-
-test/CMakeFiles/runAllTests.dir/runAllTests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/runAllTests.cpp.i"
-	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\test\runAllTests.cpp > CMakeFiles\runAllTests.dir\runAllTests.cpp.i
-
-test/CMakeFiles/runAllTests.dir/runAllTests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/runAllTests.cpp.s"
-	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\test\runAllTests.cpp -o CMakeFiles\runAllTests.dir\runAllTests.cpp.s
-
-test/CMakeFiles/runAllTests.dir/DateFixture.cpp.obj: test/CMakeFiles/runAllTests.dir/flags.make
-test/CMakeFiles/runAllTests.dir/DateFixture.cpp.obj: test/CMakeFiles/runAllTests.dir/includes_CXX.rsp
-test/CMakeFiles/runAllTests.dir/DateFixture.cpp.obj: C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/DateFixture.cpp
-test/CMakeFiles/runAllTests.dir/DateFixture.cpp.obj: test/CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/runAllTests.dir/DateFixture.cpp.obj"
-	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/runAllTests.dir/DateFixture.cpp.obj -MF CMakeFiles\runAllTests.dir\DateFixture.cpp.obj.d -o CMakeFiles\runAllTests.dir\DateFixture.cpp.obj -c C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\test\DateFixture.cpp
-
-test/CMakeFiles/runAllTests.dir/DateFixture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/DateFixture.cpp.i"
-	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\test\DateFixture.cpp > CMakeFiles\runAllTests.dir\DateFixture.cpp.i
-
-test/CMakeFiles/runAllTests.dir/DateFixture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/DateFixture.cpp.s"
-	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\test\DateFixture.cpp -o CMakeFiles\runAllTests.dir\DateFixture.cpp.s
-
 # Object files for target runAllTests
 runAllTests_OBJECTS = \
-"CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.obj" \
-"CMakeFiles/runAllTests.dir/runAllTests.cpp.obj" \
-"CMakeFiles/runAllTests.dir/DateFixture.cpp.obj"
+"CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.obj"
 
 # External object files for target runAllTests
 runAllTests_EXTERNAL_OBJECTS =
 
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.obj
-test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj
-test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/DateFixture.cpp.obj
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/build.make
 test/runAllTests.exe: lib/libgtest.a
 test/runAllTests.exe: lib/libgtest_main.a
@@ -140,7 +99,7 @@ test/runAllTests.exe: lib/libgtest.a
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/linkLibs.rsp
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/objects1.rsp
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable runAllTests.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable runAllTests.exe"
 	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\runAllTests.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -151,7 +110,7 @@ test/CMakeFiles/runAllTests.dir/clean:
 	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && $(CMAKE_COMMAND) -P CMakeFiles\runAllTests.dir\cmake_clean.cmake
 .PHONY : test/CMakeFiles/runAllTests.dir/clean
 
-test/CMakeFiles/runAllTests.dir/depend: test/runAllTests_autogen/timestamp
+test/CMakeFiles/runAllTests.dir/depend:
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\test C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\CMakeFiles\runAllTests.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/CMakeFiles/runAllTests.dir/depend
 

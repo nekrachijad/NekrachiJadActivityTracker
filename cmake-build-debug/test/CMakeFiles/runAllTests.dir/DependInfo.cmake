@@ -8,9 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "" "test/runAllTests_autogen/timestamp" "custom" "test/runAllTests_autogen/deps"
-  "C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/DateFixture.cpp" "test/CMakeFiles/runAllTests.dir/DateFixture.cpp.obj" "gcc" "test/CMakeFiles/runAllTests.dir/DateFixture.cpp.obj.d"
-  "C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/runAllTests.cpp" "test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj" "gcc" "test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj.d"
   "C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/runAllTests_autogen/mocs_compilation.cpp" "test/CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.obj" "gcc" "test/CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.obj.d"
   )
 

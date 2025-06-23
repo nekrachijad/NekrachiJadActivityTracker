@@ -4,6 +4,10 @@
 test/runAllTests_autogen/timestamp: C:/Program\ Files/JetBrains/CLion\ 2024.3/bin/cmake/win/x64/bin/cmake.exe \
   C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/CMakeLists.txt \
   C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/DateFixture.cpp \
+  C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/runAllTests.cpp \
+  C:/Program\ Files/JetBrains/CLion\ 2024.3/bin/cmake/win/x64/bin/cmake.exe \
+  C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/CMakeLists.txt \
+  C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/DateFixture.cpp \
   C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/runAllTests.cpp
 
 

@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target NekrachiJadActivityTracker
 
@@ -49,19 +49,51 @@ cmake_ninja_workdir = C$:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/c
 
 build cmake_object_order_depends_target_NekrachiJadActivityTracker: phony || NekrachiJadActivityTracker_autogen NekrachiJadActivityTracker_autogen/mocs_compilation.cpp NekrachiJadActivityTracker_autogen/timestamp NekrachiJadActivityTracker_autogen_timestamp_deps
 
-build CMakeFiles/NekrachiJadActivityTracker.dir/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__NekrachiJadActivityTracker_unscanned_Debug C$:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_NekrachiJadActivityTracker
+build CMakeFiles/NekrachiJadActivityTracker.dir/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__NekrachiJadActivityTracker_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_NekrachiJadActivityTracker
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\NekrachiJadActivityTracker.dir\NekrachiJadActivityTracker_autogen\mocs_compilation.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\NekrachiJadActivityTracker.dir
   OBJECT_FILE_DIR = CMakeFiles\NekrachiJadActivityTracker.dir\NekrachiJadActivityTracker_autogen
 
-build CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.obj: CXX_COMPILER__NekrachiJadActivityTracker_unscanned_Debug C$:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/main.cpp || cmake_object_order_depends_target_NekrachiJadActivityTracker
+build CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.obj: CXX_COMPILER__NekrachiJadActivityTracker_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/main.cpp || cmake_object_order_depends_target_NekrachiJadActivityTracker
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\NekrachiJadActivityTracker.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\NekrachiJadActivityTracker.dir
+  OBJECT_FILE_DIR = CMakeFiles\NekrachiJadActivityTracker.dir
+
+build CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj: CXX_COMPILER__NekrachiJadActivityTracker_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Date.cpp || cmake_object_order_depends_target_NekrachiJadActivityTracker
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\NekrachiJadActivityTracker.dir\Date.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\NekrachiJadActivityTracker.dir
+  OBJECT_FILE_DIR = CMakeFiles\NekrachiJadActivityTracker.dir
+
+build CMakeFiles/NekrachiJadActivityTracker.dir/Activity.cpp.obj: CXX_COMPILER__NekrachiJadActivityTracker_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Activity.cpp || cmake_object_order_depends_target_NekrachiJadActivityTracker
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\NekrachiJadActivityTracker.dir\Activity.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\NekrachiJadActivityTracker.dir
+  OBJECT_FILE_DIR = CMakeFiles\NekrachiJadActivityTracker.dir
+
+build CMakeFiles/NekrachiJadActivityTracker.dir/ActivityList.cpp.obj: CXX_COMPILER__NekrachiJadActivityTracker_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/ActivityList.cpp || cmake_object_order_depends_target_NekrachiJadActivityTracker
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\NekrachiJadActivityTracker.dir\ActivityList.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\NekrachiJadActivityTracker.dir
+  OBJECT_FILE_DIR = CMakeFiles\NekrachiJadActivityTracker.dir
+
+build CMakeFiles/NekrachiJadActivityTracker.dir/Ora.cpp.obj: CXX_COMPILER__NekrachiJadActivityTracker_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Ora.cpp || cmake_object_order_depends_target_NekrachiJadActivityTracker
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\NekrachiJadActivityTracker.dir\Ora.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\NekrachiJadActivityTracker.dir
   OBJECT_FILE_DIR = CMakeFiles\NekrachiJadActivityTracker.dir
 
@@ -73,22 +105,82 @@ build CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.obj: CXX_COMPILER__Nekr
 #############################################
 # Link the executable NekrachiJadActivityTracker.exe
 
-build NekrachiJadActivityTracker.exe: CXX_EXECUTABLE_LINKER__NekrachiJadActivityTracker_Debug CMakeFiles/NekrachiJadActivityTracker.dir/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.obj CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.obj | C$:/Qt/6.9.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.9.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.9.1/mingw_64/lib/libQt6Core.a || NekrachiJadActivityTracker_autogen NekrachiJadActivityTracker_autogen_timestamp_deps
+build NekrachiJadActivityTracker.exe: CXX_EXECUTABLE_LINKER__NekrachiJadActivityTracker_Debug CMakeFiles/NekrachiJadActivityTracker.dir/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp.obj CMakeFiles/NekrachiJadActivityTracker.dir/main.cpp.obj CMakeFiles/NekrachiJadActivityTracker.dir/Date.cpp.obj CMakeFiles/NekrachiJadActivityTracker.dir/Activity.cpp.obj CMakeFiles/NekrachiJadActivityTracker.dir/ActivityList.cpp.obj CMakeFiles/NekrachiJadActivityTracker.dir/Ora.cpp.obj | C$:/Qt/6.9.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.9.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.9.1/mingw_64/lib/libQt6Core.a || NekrachiJadActivityTracker_autogen NekrachiJadActivityTracker_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = C:/Qt/6.9.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.9.1/mingw_64/lib/libQt6Gui.a  C:/Qt/6.9.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\NekrachiJadActivityTracker.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\CLionProjects\NekrachiJadActivityTracker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/../../../bin/Qt6Core.dll C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/../../../bin/Qt6Gui.dll C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/../../../bin/Qt6Widgets.dll C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug && cd /D C:\Users\jadne\CLionProjects\NekrachiJadActivityTracker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E make_directory C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/platforms && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/../../../plugins/platforms/qwindows.dll C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/platforms"
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/../../../bin/Qt6Core.dll C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/../../../bin/Qt6Gui.dll C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/../../../bin/Qt6Widgets.dll C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug && cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E make_directory C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/platforms && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/../../../plugins/platforms/qwindows.dll C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/platforms"
   PRE_LINK = cd .
   TARGET_FILE = NekrachiJadActivityTracker.exe
   TARGET_IMPLIB = libNekrachiJadActivityTracker.dll.a
   TARGET_PDB = NekrachiJadActivityTracker.exe.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target core
+
+
+#############################################
+# Order-only phony target for core
+
+build cmake_object_order_depends_target_core: phony || core_autogen core_autogen/mocs_compilation.cpp core_autogen/timestamp core_autogen_timestamp_deps
+
+build CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__core_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/core_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_core
+  DEP_FILE = CMakeFiles\core.dir\core_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/core_autogen/include
+  OBJECT_DIR = CMakeFiles\core.dir
+  OBJECT_FILE_DIR = CMakeFiles\core.dir\core_autogen
+
+build CMakeFiles/core.dir/Date.cpp.obj: CXX_COMPILER__core_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Date.cpp || cmake_object_order_depends_target_core
+  DEP_FILE = CMakeFiles\core.dir\Date.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/core_autogen/include
+  OBJECT_DIR = CMakeFiles\core.dir
+  OBJECT_FILE_DIR = CMakeFiles\core.dir
+
+build CMakeFiles/core.dir/Ora.cpp.obj: CXX_COMPILER__core_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Ora.cpp || cmake_object_order_depends_target_core
+  DEP_FILE = CMakeFiles\core.dir\Ora.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/core_autogen/include
+  OBJECT_DIR = CMakeFiles\core.dir
+  OBJECT_FILE_DIR = CMakeFiles\core.dir
+
+build CMakeFiles/core.dir/Activity.cpp.obj: CXX_COMPILER__core_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Activity.cpp || cmake_object_order_depends_target_core
+  DEP_FILE = CMakeFiles\core.dir\Activity.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/core_autogen/include
+  OBJECT_DIR = CMakeFiles\core.dir
+  OBJECT_FILE_DIR = CMakeFiles\core.dir
+
+build CMakeFiles/core.dir/ActivityList.cpp.obj: CXX_COMPILER__core_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/ActivityList.cpp || cmake_object_order_depends_target_core
+  DEP_FILE = CMakeFiles\core.dir\ActivityList.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/core_autogen/include
+  OBJECT_DIR = CMakeFiles\core.dir
+  OBJECT_FILE_DIR = CMakeFiles\core.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target core
+
+
+#############################################
+# Link the static library libcore.a
+
+build libcore.a: CXX_STATIC_LIBRARY_LINKER__core_Debug CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.obj CMakeFiles/core.dir/Date.cpp.obj CMakeFiles/core.dir/Ora.cpp.obj CMakeFiles/core.dir/Activity.cpp.obj CMakeFiles/core.dir/ActivityList.cpp.obj || core_autogen core_autogen_timestamp_deps
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\core.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libcore.a
+  TARGET_PDB = core.a.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\CLionProjects\NekrachiJadActivityTracker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -99,12 +191,54 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\CLionProjects\NekrachiJadActivityTracker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\jadne\CLionProjects\NekrachiJadActivityTracker -BC:\Users\jadne\CLionProjects\NekrachiJadActivityTracker\cmake-build-debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker -BC:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
 
 
 #############################################
@@ -120,12 +254,35 @@ build NekrachiJadActivityTracker_autogen: phony CMakeFiles/NekrachiJadActivityTr
 
 
 #############################################
+# Utility command for core_autogen_timestamp_deps
+
+build core_autogen_timestamp_deps: phony
+
+
+#############################################
+# Utility command for core_autogen
+
+build core_autogen: phony CMakeFiles/core_autogen core_autogen/timestamp core_autogen/mocs_compilation.cpp core_autogen_timestamp_deps
+
+
+#############################################
 # Custom command for NekrachiJadActivityTracker_autogen\timestamp
 
 build NekrachiJadActivityTracker_autogen/timestamp NekrachiJadActivityTracker_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}NekrachiJadActivityTracker_autogen/timestamp ${cmake_ninja_workdir}NekrachiJadActivityTracker_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.9.1/mingw_64/bin/moc.exe C$:/Qt/6.9.1/mingw_64/bin/uic.exe || NekrachiJadActivityTracker_autogen_timestamp_deps
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\CLionProjects\NekrachiJadActivityTracker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autogen C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/NekrachiJadActivityTracker_autogen.dir/AutogenInfo.json Debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/timestamp && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_transform_depfile Ninja gccdepfile C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/deps C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/d/50d26cf924d0067efb4327c88a7244e5fe3fdc378b29dcbf9fcc8cf6bc8f8816.d"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autogen C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/NekrachiJadActivityTracker_autogen.dir/AutogenInfo.json Debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/timestamp && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_transform_depfile Ninja gccdepfile C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/deps C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/d/8c960d6f48a2a9d46d82a8c2b76a28620d2b4c813e9fbd5066ef1c714d19f2fc.d"
   DESC = Automatic MOC and UIC for target NekrachiJadActivityTracker
-  depfile = CMakeFiles\d\50d26cf924d0067efb4327c88a7244e5fe3fdc378b29dcbf9fcc8cf6bc8f8816.d
+  depfile = CMakeFiles\d\8c960d6f48a2a9d46d82a8c2b76a28620d2b4c813e9fbd5066ef1c714d19f2fc.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
+# Custom command for core_autogen\timestamp
+
+build core_autogen/timestamp core_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}core_autogen/timestamp ${cmake_ninja_workdir}core_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.9.1/mingw_64/bin/moc.exe C$:/Qt/6.9.1/mingw_64/bin/uic.exe || core_autogen_timestamp_deps
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autogen C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/core_autogen.dir/AutogenInfo.json Debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/core_autogen/timestamp && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_transform_depfile Ninja gccdepfile C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/core_autogen/deps C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/d/b204a6f32db3c4a70fa8a978428ed6e081b6f6f4eb76e7025d9bde3680adae64.d"
+  DESC = Automatic MOC and UIC for target core
+  depfile = CMakeFiles\d\b204a6f32db3c4a70fa8a978428ed6e081b6f6f4eb76e7025d9bde3680adae64.d
   deps = gcc
   restat = 1
 
@@ -135,10 +292,708 @@ build NekrachiJadActivityTracker_autogen/timestamp NekrachiJadActivityTracker_au
 
 build CMakeFiles/NekrachiJadActivityTracker_autogen | ${cmake_ninja_workdir}CMakeFiles/NekrachiJadActivityTracker_autogen: phony NekrachiJadActivityTracker_autogen/timestamp || NekrachiJadActivityTracker_autogen_timestamp_deps
 
+
+#############################################
+# Phony custom command for CMakeFiles\core_autogen
+
+build CMakeFiles/core_autogen | ${cmake_ninja_workdir}CMakeFiles/core_autogen: phony core_autogen/timestamp || core_autogen_timestamp_deps
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target runAllTests
+
+
+#############################################
+# Order-only phony target for runAllTests
+
+build cmake_object_order_depends_target_runAllTests: phony || cmake_object_order_depends_target_core cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main test/runAllTests_autogen test/runAllTests_autogen/mocs_compilation.cpp test/runAllTests_autogen/timestamp test/runAllTests_autogen_timestamp_deps
+
+build test/CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__runAllTests_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/runAllTests_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_runAllTests
+  DEP_FILE = test\CMakeFiles\runAllTests.dir\runAllTests_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/runAllTests_autogen/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest
+  OBJECT_DIR = test\CMakeFiles\runAllTests.dir
+  OBJECT_FILE_DIR = test\CMakeFiles\runAllTests.dir\runAllTests_autogen
+
+build test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj: CXX_COMPILER__runAllTests_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/runAllTests.cpp || cmake_object_order_depends_target_runAllTests
+  DEP_FILE = test\CMakeFiles\runAllTests.dir\runAllTests.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/runAllTests_autogen/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest
+  OBJECT_DIR = test\CMakeFiles\runAllTests.dir
+  OBJECT_FILE_DIR = test\CMakeFiles\runAllTests.dir
+
+build test/CMakeFiles/runAllTests.dir/DateFixture.cpp.obj: CXX_COMPILER__runAllTests_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/DateFixture.cpp || cmake_object_order_depends_target_runAllTests
+  DEP_FILE = test\CMakeFiles\runAllTests.dir\DateFixture.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/runAllTests_autogen/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest
+  OBJECT_DIR = test\CMakeFiles\runAllTests.dir
+  OBJECT_FILE_DIR = test\CMakeFiles\runAllTests.dir
+
+build test/CMakeFiles/runAllTests.dir/OraFixture.cpp.obj: CXX_COMPILER__runAllTests_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/OraFixture.cpp || cmake_object_order_depends_target_runAllTests
+  DEP_FILE = test\CMakeFiles\runAllTests.dir\OraFixture.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/runAllTests_autogen/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest
+  OBJECT_DIR = test\CMakeFiles\runAllTests.dir
+  OBJECT_FILE_DIR = test\CMakeFiles\runAllTests.dir
+
+build test/CMakeFiles/runAllTests.dir/ActivityFixture.cpp.obj: CXX_COMPILER__runAllTests_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/ActivityFixture.cpp || cmake_object_order_depends_target_runAllTests
+  DEP_FILE = test\CMakeFiles\runAllTests.dir\ActivityFixture.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/runAllTests_autogen/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest
+  OBJECT_DIR = test\CMakeFiles\runAllTests.dir
+  OBJECT_FILE_DIR = test\CMakeFiles\runAllTests.dir
+
+build test/CMakeFiles/runAllTests.dir/ActivityListFixture.cpp.obj: CXX_COMPILER__runAllTests_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/ActivityListFixture.cpp || cmake_object_order_depends_target_runAllTests
+  DEP_FILE = test\CMakeFiles\runAllTests.dir\ActivityListFixture.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/runAllTests_autogen/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest
+  OBJECT_DIR = test\CMakeFiles\runAllTests.dir
+  OBJECT_FILE_DIR = test\CMakeFiles\runAllTests.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target runAllTests
+
+
+#############################################
+# Link the executable test\runAllTests.exe
+
+build test/runAllTests.exe: CXX_EXECUTABLE_LINKER__runAllTests_Debug test/CMakeFiles/runAllTests.dir/runAllTests_autogen/mocs_compilation.cpp.obj test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj test/CMakeFiles/runAllTests.dir/DateFixture.cpp.obj test/CMakeFiles/runAllTests.dir/OraFixture.cpp.obj test/CMakeFiles/runAllTests.dir/ActivityFixture.cpp.obj test/CMakeFiles/runAllTests.dir/ActivityListFixture.cpp.obj | lib/libgtest.a lib/libgtest_main.a libcore.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a libcore.a test/runAllTests_autogen test/runAllTests_autogen_timestamp_deps
+  FLAGS = -g
+  LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  libcore.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = test\CMakeFiles\runAllTests.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test\runAllTests.exe
+  TARGET_IMPLIB = test\librunAllTests.dll.a
+  TARGET_PDB = runAllTests.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build test/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build test/edit_cache: phony test/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build test/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker -BC:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build test/rebuild_cache: phony test/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build test/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build test/CMakeFiles/install.util: CUSTOM_COMMAND test/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build test/install: phony test/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build test/CMakeFiles/install/local.util: CUSTOM_COMMAND test/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build test/install/local: phony test/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build test/CMakeFiles/install/strip.util: CUSTOM_COMMAND test/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build test/install/strip: phony test/CMakeFiles/install/strip.util
+
+
+#############################################
+# Utility command for runAllTests_autogen_timestamp_deps
+
+build test/runAllTests_autogen_timestamp_deps: phony lib/libgtest.a lib/libgtest_main.a libcore.a
+
+
+#############################################
+# Utility command for runAllTests_autogen
+
+build test/runAllTests_autogen: phony test/CMakeFiles/runAllTests_autogen test/runAllTests_autogen/timestamp test/runAllTests_autogen/mocs_compilation.cpp test/runAllTests_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for test\runAllTests_autogen\timestamp
+
+build test/runAllTests_autogen/timestamp test/runAllTests_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}test/runAllTests_autogen/timestamp ${cmake_ninja_workdir}test/runAllTests_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.9.1/mingw_64/bin/moc.exe C$:/Qt/6.9.1/mingw_64/bin/uic.exe || core_autogen core_autogen_timestamp_deps lib/libgtest.a lib/libgtest_main.a libcore.a test/lib/googletest/googletest/gtest_autogen test/lib/googletest/googletest/gtest_autogen_timestamp_deps test/lib/googletest/googletest/gtest_main_autogen test/lib/googletest/googletest/gtest_main_autogen_timestamp_deps test/runAllTests_autogen_timestamp_deps
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autogen C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/CMakeFiles/runAllTests_autogen.dir/AutogenInfo.json Debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/runAllTests_autogen/timestamp && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_transform_depfile Ninja gccdepfile C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/runAllTests_autogen/deps C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/d/ab908888761f59056a7378d76a5b50f2216a95c06e3946e566038bceaca06e86.d"
+  DESC = Automatic MOC and UIC for target runAllTests
+  depfile = CMakeFiles\d\ab908888761f59056a7378d76a5b50f2216a95c06e3946e566038bceaca06e86.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
+# Phony custom command for test\CMakeFiles\runAllTests_autogen
+
+build test/CMakeFiles/runAllTests_autogen | ${cmake_ninja_workdir}test/CMakeFiles/runAllTests_autogen: phony test/runAllTests_autogen/timestamp || core_autogen core_autogen_timestamp_deps lib/libgtest.a lib/libgtest_main.a libcore.a test/lib/googletest/googletest/gtest_autogen test/lib/googletest/googletest/gtest_autogen_timestamp_deps test/lib/googletest/googletest/gtest_main_autogen test/lib/googletest/googletest/gtest_main_autogen_timestamp_deps test/runAllTests_autogen_timestamp_deps
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build test/lib/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build test/lib/googletest/edit_cache: phony test/lib/googletest/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build test/lib/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker -BC:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build test/lib/googletest/rebuild_cache: phony test/lib/googletest/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build test/lib/googletest/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build test/lib/googletest/CMakeFiles/install.util: CUSTOM_COMMAND test/lib/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build test/lib/googletest/install: phony test/lib/googletest/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build test/lib/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND test/lib/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build test/lib/googletest/install/local: phony test/lib/googletest/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build test/lib/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND test/lib/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build test/lib/googletest/install/strip: phony test/lib/googletest/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gmock
+
+
+#############################################
+# Order-only phony target for gmock
+
+build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depends_target_gtest test/lib/googletest/googlemock/gmock_autogen test/lib/googletest/googlemock/gmock_autogen/mocs_compilation.cpp test/lib/googletest/googlemock/gmock_autogen/timestamp test/lib/googletest/googlemock/gmock_autogen_timestamp_deps
+
+build test/lib/googletest/googlemock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__gmock_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock/gmock_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_gmock
+  DEP_FILE = test\lib\googletest\googlemock\CMakeFiles\gmock.dir\gmock_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock/gmock_autogen/include -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock/include -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest
+  OBJECT_DIR = test\lib\googletest\googlemock\CMakeFiles\gmock.dir
+  OBJECT_FILE_DIR = test\lib\googletest\googlemock\CMakeFiles\gmock.dir\gmock_autogen
+
+build test/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: CXX_COMPILER__gmock_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
+  DEP_FILE = test\lib\googletest\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock/gmock_autogen/include -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock/include -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest
+  OBJECT_DIR = test\lib\googletest\googlemock\CMakeFiles\gmock.dir
+  OBJECT_FILE_DIR = test\lib\googletest\googlemock\CMakeFiles\gmock.dir\src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gmock
+
+
+#############################################
+# Link the static library lib\libgmock.a
+
+build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug test/lib/googletest/googlemock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.obj test/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj || lib/libgtest.a test/lib/googletest/googlemock/gmock_autogen test/lib/googletest/googlemock/gmock_autogen_timestamp_deps
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = test\lib\googletest\googlemock\CMakeFiles\gmock.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lib\libgmock.a
+  TARGET_PDB = gmock.a.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gmock_main
+
+
+#############################################
+# Order-only phony target for gmock_main
+
+build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest test/lib/googletest/googlemock/gmock_main_autogen test/lib/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp test/lib/googletest/googlemock/gmock_main_autogen/timestamp test/lib/googletest/googlemock/gmock_main_autogen_timestamp_deps
+
+build test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/gmock_main_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__gmock_main_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_gmock_main
+  DEP_FILE = test\lib\googletest\googlemock\CMakeFiles\gmock_main.dir\gmock_main_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest
+  OBJECT_DIR = test\lib\googletest\googlemock\CMakeFiles\gmock_main.dir
+  OBJECT_FILE_DIR = test\lib\googletest\googlemock\CMakeFiles\gmock_main.dir\gmock_main_autogen
+
+build test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: CXX_COMPILER__gmock_main_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
+  DEP_FILE = test\lib\googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest
+  OBJECT_DIR = test\lib\googletest\googlemock\CMakeFiles\gmock_main.dir
+  OBJECT_FILE_DIR = test\lib\googletest\googlemock\CMakeFiles\gmock_main.dir\src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gmock_main
+
+
+#############################################
+# Link the static library lib\libgmock_main.a
+
+build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/gmock_main_autogen/mocs_compilation.cpp.obj test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj || lib/libgmock.a lib/libgtest.a test/lib/googletest/googlemock/gmock_main_autogen test/lib/googletest/googlemock/gmock_main_autogen_timestamp_deps
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = test\lib\googletest\googlemock\CMakeFiles\gmock_main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lib\libgmock_main.a
+  TARGET_PDB = gmock_main.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build test/lib/googletest/googlemock/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest\googlemock && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build test/lib/googletest/googlemock/edit_cache: phony test/lib/googletest/googlemock/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build test/lib/googletest/googlemock/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest\googlemock && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker -BC:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build test/lib/googletest/googlemock/rebuild_cache: phony test/lib/googletest/googlemock/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build test/lib/googletest/googlemock/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build test/lib/googletest/googlemock/CMakeFiles/install.util: CUSTOM_COMMAND test/lib/googletest/googlemock/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest\googlemock && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build test/lib/googletest/googlemock/install: phony test/lib/googletest/googlemock/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build test/lib/googletest/googlemock/CMakeFiles/install/local.util: CUSTOM_COMMAND test/lib/googletest/googlemock/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest\googlemock && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build test/lib/googletest/googlemock/install/local: phony test/lib/googletest/googlemock/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build test/lib/googletest/googlemock/CMakeFiles/install/strip.util: CUSTOM_COMMAND test/lib/googletest/googlemock/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest\googlemock && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build test/lib/googletest/googlemock/install/strip: phony test/lib/googletest/googlemock/CMakeFiles/install/strip.util
+
+
+#############################################
+# Utility command for gmock_autogen_timestamp_deps
+
+build test/lib/googletest/googlemock/gmock_autogen_timestamp_deps: phony lib/libgtest.a
+
+
+#############################################
+# Utility command for gmock_autogen
+
+build test/lib/googletest/googlemock/gmock_autogen: phony test/lib/googletest/googlemock/CMakeFiles/gmock_autogen test/lib/googletest/googlemock/gmock_autogen/timestamp test/lib/googletest/googlemock/gmock_autogen/mocs_compilation.cpp test/lib/googletest/googlemock/gmock_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for gmock_main_autogen_timestamp_deps
+
+build test/lib/googletest/googlemock/gmock_main_autogen_timestamp_deps: phony lib/libgmock.a
+
+
+#############################################
+# Utility command for gmock_main_autogen
+
+build test/lib/googletest/googlemock/gmock_main_autogen: phony test/lib/googletest/googlemock/CMakeFiles/gmock_main_autogen test/lib/googletest/googlemock/gmock_main_autogen/timestamp test/lib/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp test/lib/googletest/googlemock/gmock_main_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for test\lib\googletest\googlemock\gmock_autogen\timestamp
+
+build test/lib/googletest/googlemock/gmock_autogen/timestamp test/lib/googletest/googlemock/gmock_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}test/lib/googletest/googlemock/gmock_autogen/timestamp ${cmake_ninja_workdir}test/lib/googletest/googlemock/gmock_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.9.1/mingw_64/bin/moc.exe C$:/Qt/6.9.1/mingw_64/bin/uic.exe || lib/libgtest.a test/lib/googletest/googlemock/gmock_autogen_timestamp_deps test/lib/googletest/googletest/gtest_autogen test/lib/googletest/googletest/gtest_autogen_timestamp_deps
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest\googlemock && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autogen C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock_autogen.dir/AutogenInfo.json Debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock/gmock_autogen/timestamp && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_transform_depfile Ninja gccdepfile C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock/gmock_autogen/deps C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/d/8995339957756b6c74712322852774751a2a9e52e8b6dacd58086c15630758c0.d"
+  DESC = Automatic MOC and UIC for target gmock
+  depfile = CMakeFiles\d\8995339957756b6c74712322852774751a2a9e52e8b6dacd58086c15630758c0.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
+# Custom command for test\lib\googletest\googlemock\gmock_main_autogen\timestamp
+
+build test/lib/googletest/googlemock/gmock_main_autogen/timestamp test/lib/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}test/lib/googletest/googlemock/gmock_main_autogen/timestamp ${cmake_ninja_workdir}test/lib/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.9.1/mingw_64/bin/moc.exe C$:/Qt/6.9.1/mingw_64/bin/uic.exe || lib/libgmock.a lib/libgtest.a test/lib/googletest/googlemock/gmock_autogen test/lib/googletest/googlemock/gmock_autogen_timestamp_deps test/lib/googletest/googlemock/gmock_main_autogen_timestamp_deps test/lib/googletest/googletest/gtest_autogen test/lib/googletest/googletest/gtest_autogen_timestamp_deps
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest\googlemock && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autogen C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/AutogenInfo.json Debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen/timestamp && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_transform_depfile Ninja gccdepfile C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen/deps C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/d/c8d31400f6a019529a8c04416f100e59e883d9626d3720756bf5474e3fd03d9c.d"
+  DESC = Automatic MOC and UIC for target gmock_main
+  depfile = CMakeFiles\d\c8d31400f6a019529a8c04416f100e59e883d9626d3720756bf5474e3fd03d9c.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
+# Phony custom command for test\lib\googletest\googlemock\CMakeFiles\gmock_autogen
+
+build test/lib/googletest/googlemock/CMakeFiles/gmock_autogen | ${cmake_ninja_workdir}test/lib/googletest/googlemock/CMakeFiles/gmock_autogen: phony test/lib/googletest/googlemock/gmock_autogen/timestamp || lib/libgtest.a test/lib/googletest/googlemock/gmock_autogen_timestamp_deps test/lib/googletest/googletest/gtest_autogen test/lib/googletest/googletest/gtest_autogen_timestamp_deps
+
+
+#############################################
+# Phony custom command for test\lib\googletest\googlemock\CMakeFiles\gmock_main_autogen
+
+build test/lib/googletest/googlemock/CMakeFiles/gmock_main_autogen | ${cmake_ninja_workdir}test/lib/googletest/googlemock/CMakeFiles/gmock_main_autogen: phony test/lib/googletest/googlemock/gmock_main_autogen/timestamp || lib/libgmock.a lib/libgtest.a test/lib/googletest/googlemock/gmock_autogen test/lib/googletest/googlemock/gmock_autogen_timestamp_deps test/lib/googletest/googlemock/gmock_main_autogen_timestamp_deps test/lib/googletest/googletest/gtest_autogen test/lib/googletest/googletest/gtest_autogen_timestamp_deps
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gtest
+
+
+#############################################
+# Order-only phony target for gtest
+
+build cmake_object_order_depends_target_gtest: phony || test/lib/googletest/googletest/gtest_autogen test/lib/googletest/googletest/gtest_autogen/mocs_compilation.cpp test/lib/googletest/googletest/gtest_autogen/timestamp test/lib/googletest/googletest/gtest_autogen_timestamp_deps
+
+build test/lib/googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__gtest_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest/gtest_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_gtest
+  DEP_FILE = test\lib\googletest\googletest\CMakeFiles\gtest.dir\gtest_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest/gtest_autogen/include -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/include -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest
+  OBJECT_DIR = test\lib\googletest\googletest\CMakeFiles\gtest.dir
+  OBJECT_FILE_DIR = test\lib\googletest\googletest\CMakeFiles\gtest.dir\gtest_autogen
+
+build test/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: CXX_COMPILER__gtest_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
+  DEP_FILE = test\lib\googletest\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest/gtest_autogen/include -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/include -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest
+  OBJECT_DIR = test\lib\googletest\googletest\CMakeFiles\gtest.dir
+  OBJECT_FILE_DIR = test\lib\googletest\googletest\CMakeFiles\gtest.dir\src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gtest
+
+
+#############################################
+# Link the static library lib\libgtest.a
+
+build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug test/lib/googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.obj test/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj || test/lib/googletest/googletest/gtest_autogen test/lib/googletest/googletest/gtest_autogen_timestamp_deps
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = test\lib\googletest\googletest\CMakeFiles\gtest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lib\libgtest.a
+  TARGET_PDB = gtest.a.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gtest_main
+
+
+#############################################
+# Order-only phony target for gtest_main
+
+build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest test/lib/googletest/googletest/gtest_main_autogen test/lib/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp test/lib/googletest/googletest/gtest_main_autogen/timestamp test/lib/googletest/googletest/gtest_main_autogen_timestamp_deps
+
+build test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__gtest_main_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_gtest_main
+  DEP_FILE = test\lib\googletest\googletest\CMakeFiles\gtest_main.dir\gtest_main_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest/gtest_main_autogen/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest
+  OBJECT_DIR = test\lib\googletest\googletest\CMakeFiles\gtest_main.dir
+  OBJECT_FILE_DIR = test\lib\googletest\googletest\CMakeFiles\gtest_main.dir\gtest_main_autogen
+
+build test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: CXX_COMPILER__gtest_main_unscanned_Debug C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
+  DEP_FILE = test\lib\googletest\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -IC:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest/gtest_main_autogen/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/include -isystem C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest
+  OBJECT_DIR = test\lib\googletest\googletest\CMakeFiles\gtest_main.dir
+  OBJECT_FILE_DIR = test\lib\googletest\googletest\CMakeFiles\gtest_main.dir\src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gtest_main
+
+
+#############################################
+# Link the static library lib\libgtest_main.a
+
+build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.obj test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj || lib/libgtest.a test/lib/googletest/googletest/gtest_main_autogen test/lib/googletest/googletest/gtest_main_autogen_timestamp_deps
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = test\lib\googletest\googletest\CMakeFiles\gtest_main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lib\libgtest_main.a
+  TARGET_PDB = gtest_main.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build test/lib/googletest/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest\googletest && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build test/lib/googletest/googletest/edit_cache: phony test/lib/googletest/googletest/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build test/lib/googletest/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest\googletest && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker -BC:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build test/lib/googletest/googletest/rebuild_cache: phony test/lib/googletest/googletest/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build test/lib/googletest/googletest/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build test/lib/googletest/googletest/CMakeFiles/install.util: CUSTOM_COMMAND test/lib/googletest/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest\googletest && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build test/lib/googletest/googletest/install: phony test/lib/googletest/googletest/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build test/lib/googletest/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND test/lib/googletest/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest\googletest && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build test/lib/googletest/googletest/install/local: phony test/lib/googletest/googletest/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build test/lib/googletest/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND test/lib/googletest/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest\googletest && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build test/lib/googletest/googletest/install/strip: phony test/lib/googletest/googletest/CMakeFiles/install/strip.util
+
+
+#############################################
+# Utility command for gtest_autogen_timestamp_deps
+
+build test/lib/googletest/googletest/gtest_autogen_timestamp_deps: phony
+
+
+#############################################
+# Utility command for gtest_autogen
+
+build test/lib/googletest/googletest/gtest_autogen: phony test/lib/googletest/googletest/CMakeFiles/gtest_autogen test/lib/googletest/googletest/gtest_autogen/timestamp test/lib/googletest/googletest/gtest_autogen/mocs_compilation.cpp test/lib/googletest/googletest/gtest_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for gtest_main_autogen_timestamp_deps
+
+build test/lib/googletest/googletest/gtest_main_autogen_timestamp_deps: phony lib/libgtest.a
+
+
+#############################################
+# Utility command for gtest_main_autogen
+
+build test/lib/googletest/googletest/gtest_main_autogen: phony test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen test/lib/googletest/googletest/gtest_main_autogen/timestamp test/lib/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp test/lib/googletest/googletest/gtest_main_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for test\lib\googletest\googletest\gtest_autogen\timestamp
+
+build test/lib/googletest/googletest/gtest_autogen/timestamp test/lib/googletest/googletest/gtest_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}test/lib/googletest/googletest/gtest_autogen/timestamp ${cmake_ninja_workdir}test/lib/googletest/googletest/gtest_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.9.1/mingw_64/bin/moc.exe C$:/Qt/6.9.1/mingw_64/bin/uic.exe || test/lib/googletest/googletest/gtest_autogen_timestamp_deps
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest\googletest && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autogen C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_autogen.dir/AutogenInfo.json Debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest/gtest_autogen/timestamp && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_transform_depfile Ninja gccdepfile C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest/gtest_autogen/deps C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/d/475322b73ac359c7035d48cffb28c738976067504b5b055d427010edb15c2107.d"
+  DESC = Automatic MOC and UIC for target gtest
+  depfile = CMakeFiles\d\475322b73ac359c7035d48cffb28c738976067504b5b055d427010edb15c2107.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
+# Custom command for test\lib\googletest\googletest\gtest_main_autogen\timestamp
+
+build test/lib/googletest/googletest/gtest_main_autogen/timestamp test/lib/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}test/lib/googletest/googletest/gtest_main_autogen/timestamp ${cmake_ninja_workdir}test/lib/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.9.1/mingw_64/bin/moc.exe C$:/Qt/6.9.1/mingw_64/bin/uic.exe || lib/libgtest.a test/lib/googletest/googletest/gtest_autogen test/lib/googletest/googletest/gtest_autogen_timestamp_deps test/lib/googletest/googletest/gtest_main_autogen_timestamp_deps
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug\test\lib\googletest\googletest && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autogen C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/AutogenInfo.json Debug && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest/gtest_main_autogen/timestamp && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_transform_depfile Ninja gccdepfile C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest/gtest_main_autogen/deps C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/d/9cea2e4478139725975439adcef1199b9e8c0f5f6e766a434956dc5746819317.d"
+  DESC = Automatic MOC and UIC for target gtest_main
+  depfile = CMakeFiles\d\9cea2e4478139725975439adcef1199b9e8c0f5f6e766a434956dc5746819317.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
+# Phony custom command for test\lib\googletest\googletest\CMakeFiles\gtest_autogen
+
+build test/lib/googletest/googletest/CMakeFiles/gtest_autogen | ${cmake_ninja_workdir}test/lib/googletest/googletest/CMakeFiles/gtest_autogen: phony test/lib/googletest/googletest/gtest_autogen/timestamp || test/lib/googletest/googletest/gtest_autogen_timestamp_deps
+
+
+#############################################
+# Phony custom command for test\lib\googletest\googletest\CMakeFiles\gtest_main_autogen
+
+build test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen | ${cmake_ninja_workdir}test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen: phony test/lib/googletest/googletest/gtest_main_autogen/timestamp || lib/libgtest.a test/lib/googletest/googletest/gtest_autogen test/lib/googletest/googletest/gtest_autogen_timestamp_deps test/lib/googletest/googletest/gtest_main_autogen_timestamp_deps
+
 # =============================================================================
 # Target aliases.
 
 build NekrachiJadActivityTracker: phony NekrachiJadActivityTracker.exe
+
+build core: phony libcore.a
+
+build gmock: phony lib/libgmock.a
+
+build gmock_autogen: phony test/lib/googletest/googlemock/gmock_autogen
+
+build gmock_autogen_timestamp_deps: phony test/lib/googletest/googlemock/gmock_autogen_timestamp_deps
+
+build gmock_main: phony lib/libgmock_main.a
+
+build gmock_main_autogen: phony test/lib/googletest/googlemock/gmock_main_autogen
+
+build gmock_main_autogen_timestamp_deps: phony test/lib/googletest/googlemock/gmock_main_autogen_timestamp_deps
+
+build gtest: phony lib/libgtest.a
+
+build gtest_autogen: phony test/lib/googletest/googletest/gtest_autogen
+
+build gtest_autogen_timestamp_deps: phony test/lib/googletest/googletest/gtest_autogen_timestamp_deps
+
+build gtest_main: phony lib/libgtest_main.a
+
+build gtest_main_autogen: phony test/lib/googletest/googletest/gtest_main_autogen
+
+build gtest_main_autogen_timestamp_deps: phony test/lib/googletest/googletest/gtest_main_autogen_timestamp_deps
+
+build libgmock.a: phony lib/libgmock.a
+
+build libgmock_main.a: phony lib/libgmock_main.a
+
+build libgtest.a: phony lib/libgtest.a
+
+build libgtest_main.a: phony lib/libgtest_main.a
+
+build runAllTests: phony test/runAllTests.exe
+
+build runAllTests.exe: phony test/runAllTests.exe
+
+build runAllTests_autogen: phony test/runAllTests_autogen
+
+build runAllTests_autogen_timestamp_deps: phony test/runAllTests_autogen_timestamp_deps
 
 # =============================================================================
 # Folder targets.
@@ -146,9 +1001,37 @@ build NekrachiJadActivityTracker: phony NekrachiJadActivityTracker.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/cmake-build-debug
+# Folder: C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug
 
-build all: phony NekrachiJadActivityTracker.exe
+build all: phony NekrachiJadActivityTracker.exe libcore.a test/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test
+
+build test/all: phony test/runAllTests.exe test/lib/googletest/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest
+
+build test/lib/googletest/all: phony test/lib/googletest/googlemock/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googlemock
+
+build test/lib/googletest/googlemock/all: phony lib/libgmock.a lib/libgmock_main.a test/lib/googletest/googletest/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/test/lib/googletest/googletest
+
+build test/lib/googletest/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 
 # =============================================================================
 # Built-in targets
@@ -157,14 +1040,14 @@ build all: phony NekrachiJadActivityTracker.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindVulkan.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointMinGW32Target.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Config.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Targets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtFeature.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtFeatureCommon.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtInstallPaths.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake C$:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindVulkan.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointMinGW32Target.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Config.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Targets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtFeature.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtFeatureCommon.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtInstallPaths.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/CMakeLists.txt C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/CMakeLists.txt C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/CMakeLists.txt C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock/CMakeLists.txt C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock/cmake/gmock.pc.in C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock/cmake/gmock_main.pc.in C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/CMakeLists.txt C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/cmake/Config.cmake.in C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/cmake/gtest.pc.in C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/cmake/gtest_main.pc.in C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/cmake/internal_utils.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindVulkan.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointMinGW32Target.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Config.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Targets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtFeature.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtFeatureCommon.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtInstallPaths.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake C$:/Users/jadne/CLionProjects/NekrachiJadActivityTracker/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindVulkan.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointMinGW32Target.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateAdditionalTargetInfo.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfig.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Config.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Targets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtFeature.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtFeatureCommon.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtInstallPaths.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake C$:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/CMakeLists.txt C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/CMakeLists.txt C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/CMakeLists.txt C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock/CMakeLists.txt C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock/cmake/gmock.pc.in C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googlemock/cmake/gmock_main.pc.in C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/CMakeLists.txt C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/cmake/Config.cmake.in C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/cmake/gtest.pc.in C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/cmake/gtest_main.pc.in C$:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/lib/googletest/googletest/cmake/internal_utils.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

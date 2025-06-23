@@ -202,54 +202,6 @@ runAllTests_autogen/fast:
 	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests_autogen.dir\build.make test/CMakeFiles/runAllTests_autogen.dir/build
 .PHONY : runAllTests_autogen/fast
 
-DateFixture.obj: DateFixture.cpp.obj
-.PHONY : DateFixture.obj
-
-# target to build an object file
-DateFixture.cpp.obj:
-	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/DateFixture.cpp.obj
-.PHONY : DateFixture.cpp.obj
-
-DateFixture.i: DateFixture.cpp.i
-.PHONY : DateFixture.i
-
-# target to preprocess a source file
-DateFixture.cpp.i:
-	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/DateFixture.cpp.i
-.PHONY : DateFixture.cpp.i
-
-DateFixture.s: DateFixture.cpp.s
-.PHONY : DateFixture.s
-
-# target to generate assembly for a file
-DateFixture.cpp.s:
-	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/DateFixture.cpp.s
-.PHONY : DateFixture.cpp.s
-
-runAllTests.obj: runAllTests.cpp.obj
-.PHONY : runAllTests.obj
-
-# target to build an object file
-runAllTests.cpp.obj:
-	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj
-.PHONY : runAllTests.cpp.obj
-
-runAllTests.i: runAllTests.cpp.i
-.PHONY : runAllTests.i
-
-# target to preprocess a source file
-runAllTests.cpp.i:
-	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.i
-.PHONY : runAllTests.cpp.i
-
-runAllTests.s: runAllTests.cpp.s
-.PHONY : runAllTests.s
-
-# target to generate assembly for a file
-runAllTests.cpp.s:
-	cd /d C:\Users\jadne\Documents\GitHub\NekrachiJadActivityTracker\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.s
-.PHONY : runAllTests.cpp.s
-
 runAllTests_autogen/mocs_compilation.obj: runAllTests_autogen/mocs_compilation.cpp.obj
 .PHONY : runAllTests_autogen/mocs_compilation.obj
 
@@ -289,12 +241,6 @@ help:
 	@echo ... runAllTests_autogen
 	@echo ... runAllTests_autogen_timestamp_deps
 	@echo ... runAllTests
-	@echo ... DateFixture.obj
-	@echo ... DateFixture.i
-	@echo ... DateFixture.s
-	@echo ... runAllTests.obj
-	@echo ... runAllTests.i
-	@echo ... runAllTests.s
 	@echo ... runAllTests_autogen/mocs_compilation.obj
 	@echo ... runAllTests_autogen/mocs_compilation.i
 	@echo ... runAllTests_autogen/mocs_compilation.s

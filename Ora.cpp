@@ -24,6 +24,6 @@ bool Ora::operator>=(const Ora &other) const {
     return calcolaMinuti() >= other.calcolaMinuti();
 }
 
-inline int Ora::operator-(const Ora &altra) const {
+int Ora::operator-(const Ora &altra) const {
     return this->calcolaMinuti() - altra.calcolaMinuti();
 }

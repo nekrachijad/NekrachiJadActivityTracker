@@ -1,0 +1,357 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-test-Debug-f18be1977b403cfd1a50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "test/lib/googletest",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-test.lib.googletest-Debug-fe569e11e6931c62b9cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "test/lib/googletest"
+				},
+				{
+					"build" : "test/lib/googletest/googlemock",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-test.lib.googletest.googlemock-Debug-7c74254900e4916319b1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "test/lib/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "test/lib/googletest/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-test.lib.googletest.googletest-Debug-17541d930611879affd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "test/lib/googletest/googletest",
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "NekrachiJadActivityTracker",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "NekrachiJadActivityTracker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NekrachiJadActivityTracker-Debug-e183eed287ab1a4031db.json",
+					"name" : "NekrachiJadActivityTracker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NekrachiJadActivityTracker_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NekrachiJadActivityTracker_autogen-Debug-d9df3216b8c7db93eda0.json",
+					"name" : "NekrachiJadActivityTracker_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NekrachiJadActivityTracker_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NekrachiJadActivityTracker_autogen_timestamp_deps-Debug-4fcb6a4a35102b30ee34.json",
+					"name" : "NekrachiJadActivityTracker_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-core-Debug-fce0df4d38002988306f.json",
+					"name" : "core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "core_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-core_autogen-Debug-469d7f247180f7ba8278.json",
+					"name" : "core_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "core_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-core_autogen_timestamp_deps-Debug-d9ea8bfd18694c853263.json",
+					"name" : "core_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock::@d326c8eb0afed721c8fa",
+					"jsonFile" : "target-gmock-Debug-f091ac449f382f77ff5f.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock_autogen::@d326c8eb0afed721c8fa",
+					"jsonFile" : "target-gmock_autogen-Debug-324d2d6dab80eb7c366a.json",
+					"name" : "gmock_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock_autogen_timestamp_deps::@d326c8eb0afed721c8fa",
+					"jsonFile" : "target-gmock_autogen_timestamp_deps-Debug-51454d3890dcf000bf95.json",
+					"name" : "gmock_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock_main::@d326c8eb0afed721c8fa",
+					"jsonFile" : "target-gmock_main-Debug-8fe86edd5685a2ab26d2.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock_main_autogen::@d326c8eb0afed721c8fa",
+					"jsonFile" : "target-gmock_main_autogen-Debug-a7e3513f0685f3811a1c.json",
+					"name" : "gmock_main_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock_main_autogen_timestamp_deps::@d326c8eb0afed721c8fa",
+					"jsonFile" : "target-gmock_main_autogen_timestamp_deps-Debug-76a1bac4771b72167d3e.json",
+					"name" : "gmock_main_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest::@c72fc6c7adf34f6238a3",
+					"jsonFile" : "target-gtest-Debug-0aeecac6d0883b72aa00.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_autogen::@c72fc6c7adf34f6238a3",
+					"jsonFile" : "target-gtest_autogen-Debug-884bf5092244b89fbf52.json",
+					"name" : "gtest_autogen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_autogen_timestamp_deps::@c72fc6c7adf34f6238a3",
+					"jsonFile" : "target-gtest_autogen_timestamp_deps-Debug-9358dc3392d0f3d8c100.json",
+					"name" : "gtest_autogen_timestamp_deps",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main::@c72fc6c7adf34f6238a3",
+					"jsonFile" : "target-gtest_main-Debug-95994926bb58e2bdb19b.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main_autogen::@c72fc6c7adf34f6238a3",
+					"jsonFile" : "target-gtest_main_autogen-Debug-a9ce3c17c3d04186c855.json",
+					"name" : "gtest_main_autogen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main_autogen_timestamp_deps::@c72fc6c7adf34f6238a3",
+					"jsonFile" : "target-gtest_main_autogen_timestamp_deps-Debug-692b30d65e289eeb4e99.json",
+					"name" : "gtest_main_autogen_timestamp_deps",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "runAllTests::@36f028580bb02cc8272a",
+					"jsonFile" : "target-runAllTests-Debug-7be93e48ca1a18cad06a.json",
+					"name" : "runAllTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "runAllTests_autogen::@36f028580bb02cc8272a",
+					"jsonFile" : "target-runAllTests_autogen-Debug-d51e27fa2e385c41f794.json",
+					"name" : "runAllTests_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "runAllTests_autogen_timestamp_deps::@36f028580bb02cc8272a",
+					"jsonFile" : "target-runAllTests_autogen_timestamp_deps-Debug-cdf5eae9a32c300673d3.json",
+					"name" : "runAllTests_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug",
+		"source" : "C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

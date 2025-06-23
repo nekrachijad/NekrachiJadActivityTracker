@@ -14,11 +14,11 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
 add_subdirectory(test)
-set(SOURCE_FILES Date.cpp Date.h)
+set(SOURCE_FILES Date.cpp Date.h Ora.cpp Ora.h Activity.h Activity.cpp ActivityList.h ActivityList.cpp)
+
 add_executable(NekrachiJadActivityTracker main.cpp Date.h Date.cpp Activity.h Activity.cpp ActivityList.h ActivityList.cpp Ora.h Ora.cpp)
 add_library(core ${SOURCE_FILES})
 target_link_libraries(NekrachiJadActivityTracker PRIVATE Qt6::Widgets)
-
 
 
 add_custom_command(TARGET NekrachiJadActivityTracker POST_BUILD

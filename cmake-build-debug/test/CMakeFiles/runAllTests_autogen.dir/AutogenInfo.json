@@ -71,7 +71,22 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/ActivityFixture.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/ActivityListFixture.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/DateFixture.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/test/OraFixture.cpp",
 			"MU",
 			null
 		],

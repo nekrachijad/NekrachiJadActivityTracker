@@ -1,2 +1,0 @@
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ar.exe qc libcore.a CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.obj CMakeFiles/core.dir/Date.cpp.obj
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ranlib.exe libcore.a

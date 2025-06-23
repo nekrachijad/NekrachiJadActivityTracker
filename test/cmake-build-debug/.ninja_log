@@ -1,0 +1,7 @@
+# ninja log v6
+28	2704	7723889968649917	CMakeFiles/runAllTests.dir/runAllTests.cpp.obj	1c79ca6153faef5
+20	2839	7723889968579907	lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	c7fac4a74041194c
+36	3399	7723889968729956	CMakeFiles/runAllTests.dir/DateFixture.cpp.obj	29c6dfd09675e49d
+5	14391	7723889968419940	lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	29441ccf58701327
+14394	20251	7723890112308334	lib/libgtest.a	dfe54496613bb5f8
+20251	20363	7723890170882792	lib/libgtest_main.a	590716ca2105c2cb
