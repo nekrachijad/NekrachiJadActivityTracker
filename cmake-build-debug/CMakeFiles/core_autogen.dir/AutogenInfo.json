@@ -316,9 +316,9 @@
 			null
 		],
 		[
-			"C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Ora.h",
+			"C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Time.h",
 			"MU",
-			"EWIEGA46WW/moc_Ora.cpp",
+			"EWIEGA46WW/moc_Time.cpp",
 			null
 		]
 	],
@@ -395,7 +395,7 @@
 			null
 		],
 		[
-			"C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Ora.cpp",
+			"C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Time.cpp",
 			"MU",
 			null
 		]

@@ -13,7 +13,7 @@
 #include <QInputDialog>
 
 #include "Date.h"
-#include "Ora.h"
+#include "Time.h"
 #include "Activity.h"
 #include "ActivityList.h"
 
@@ -116,8 +116,8 @@ int main(int argc, char *argv[]) {
 
             try {
                 Activity nuova(desc.toStdString(),
-                               Ora(qstart.hour(), qstart.minute()),
-                               Ora(qend.hour(), qend.minute()),
+                               Time(qstart.hour(), qstart.minute()),
+                               Time(qend.hour(), qend.minute()),
                                Date(qdate.day(), qdate.month(), qdate.year()));
 
                 activityList.addActivity(nuova);
@@ -170,10 +170,10 @@ int main(int argc, char *argv[]) {
 
                 for (const auto &act: activities) {
                     msg += "- " + QString::fromStdString(act.getDescription()) + " [" +
-                            QString::number(act.getInizio().getOre()) + ":" +
-                            QString::number(act.getInizio().getMinuti()).rightJustified(2, '0') + " - " +
-                            QString::number(act.getFine().getOre()) + ":" +
-                            QString::number(act.getFine().getMinuti()).rightJustified(2, '0') + "]\n";
+                            QString::number(act.getStart().getHours()) + ":" +
+                            QString::number(act.getStart().getMinutes()).rightJustified(2, '0') + " - " +
+                            QString::number(act.getEnd().getHours()) + ":" +
+                            QString::number(act.getEnd().getMinutes()).rightJustified(2, '0') + "]\n";
                 }
 
                 actionLabel->setText(msg);
@@ -203,10 +203,10 @@ int main(int argc, char *argv[]) {
                        QString::number(act.getData().getDay()) + "/" +
                        QString::number(act.getData().getMonth()) + "/" +
                        QString::number(act.getData().getMonth()) + " " +
-                       QString::number(act.getInizio().getOre()) + ":" +
-                       QString::number(act.getInizio().getMinuti()).rightJustified(2, '0') + " - " +
-                       QString::number(act.getFine().getOre()) + ":" +
-                       QString::number(act.getFine().getMinuti()).rightJustified(2, '0') + "]";
+                       QString::number(act.getStart().getHours()) + ":" +
+                       QString::number(act.getStart().getMinutes()).rightJustified(2, '0') + " - " +
+                       QString::number(act.getEnd().getHours()) + ":" +
+                       QString::number(act.getEnd().getMinutes()).rightJustified(2, '0') + "]";
         items << desc;
     }
 
@@ -237,10 +237,10 @@ int main(int argc, char *argv[]) {
                        QString::number(act.getData().getDay()) + "/" +
                        QString::number(act.getData().getMonth()) + "/" +
                        QString::number(act.getData().getYear()) + " " +
-                       QString::number(act.getInizio().getOre()) + ":" +
-                       QString::number(act.getInizio().getMinuti()).rightJustified(2, '0') + " - " +
-                       QString::number(act.getFine().getOre()) + ":" +
-                       QString::number(act.getFine().getMinuti()).rightJustified(2, '0') + "]";
+                       QString::number(act.getStart().getHours()) + ":" +
+                       QString::number(act.getStart().getMinutes()).rightJustified(2, '0') + " - " +
+                       QString::number(act.getEnd().getHours()) + ":" +
+                       QString::number(act.getEnd().getMinutes()).rightJustified(2, '0') + "]";
         items << desc;
     }
 
@@ -267,12 +267,12 @@ int main(int argc, char *argv[]) {
         dateEdit->setCalendarPopup(true);
 
         QLabel* startLabel = new QLabel("Ora Inizio:");
-        QTimeEdit* startTimeEdit = new QTimeEdit(QTime(oldActivity.getInizio().getOre(),
-                                                        oldActivity.getInizio().getMinuti()));
+        QTimeEdit* startTimeEdit = new QTimeEdit(QTime(oldActivity.getStart().getHours(),
+                                                        oldActivity.getStart().getMinutes()));
 
         QLabel* endLabel = new QLabel("Ora Fine:");
-        QTimeEdit* endTimeEdit = new QTimeEdit(QTime(oldActivity.getFine().getOre(),
-                                                     oldActivity.getFine().getMinuti()));
+        QTimeEdit* endTimeEdit = new QTimeEdit(QTime(oldActivity.getEnd().getHours(),
+                                                     oldActivity.getEnd().getMinutes()));
 
         QPushButton* okButton = new QPushButton("Salva");
         QPushButton* cancelButton = new QPushButton("Annulla");
@@ -299,8 +299,8 @@ int main(int argc, char *argv[]) {
 
             try {
                 Activity nuova(desc.toStdString(),
-                               Ora(qstart.hour(), qstart.minute()),
-                               Ora(qend.hour(), qend.minute()),
+                               Time(qstart.hour(), qstart.minute()),
+                               Time(qend.hour(), qend.minute()),
                                Date(qdate.day(), qdate.month(), qdate.year()));
 
                 activityList.modifyActivity(index, nuova);

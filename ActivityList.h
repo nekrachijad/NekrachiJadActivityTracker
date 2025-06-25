@@ -31,12 +31,12 @@ public:
             activities.erase(activities.begin() + index);
         }
     }
-    void modifyActivity(int index, const Activity& nuova) {
+
+    void modifyActivity(int index, const Activity &nuova) {
         if (index >= 0 && index < activities.size()) {
             activities[index] = nuova;
         }
     }
-
 };
 
 #endif // ACTIVITYLIST_H

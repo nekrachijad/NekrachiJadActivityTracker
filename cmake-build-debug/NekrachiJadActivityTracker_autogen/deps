@@ -215,8 +215,8 @@ NekrachiJadActivityTracker_autogen/timestamp: \
 	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/CMakeLists.txt \
 	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Date.cpp \
 	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Date.h \
-	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Ora.cpp \
-	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Ora.h \
+	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Time.cpp \
+	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Time.h \
 	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake \
 	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \

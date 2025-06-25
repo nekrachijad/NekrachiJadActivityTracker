@@ -8,17 +8,17 @@
 
 #include "Date.h"
 #include <iostream>
-#include "Ora.h"
+#include "Time.h"
 
 class Activity {
 protected:
     std::string description;
-    Ora inizio;
-    Ora fine;
+    Time start;
+    Time end;
     Date data;
 
 public:
-    Activity(std::string description, Ora inizio, Ora fine, Date data);
+    Activity(std::string description, Time inizio, Time fine, Date data);
 
     Activity()=default;
 
@@ -32,24 +32,19 @@ public:
         this->description = description;
     }
 
-    Ora getInizio() const {
-        return inizio;
+    Time getStart() const {
+        return start;
     }
 
-    void setInizio(const Ora &inizio) {
-        this->inizio = inizio;
+    void setStart(const Time &inizio) {
+        this->start = inizio;
     }
 
-    Ora getFine() const {
-        return fine;
+    Time getEnd() const {
+        return end;
     }
 
-    void setFine(const Ora &fine) {
-        if ((fine - inizio) < 0) {
-            throw std::invalid_argument("L'ora di inizio non  può essere maggiore di quella di fine");
-        }
-        this->fine = fine;
-    }
+    void setEnd(const Time &fine);
 
     Date getData() const {
         return data;

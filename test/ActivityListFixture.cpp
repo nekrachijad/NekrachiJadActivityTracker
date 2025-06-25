@@ -12,9 +12,9 @@ protected:
     Date domani{24, 6, 2025};
 
     void SetUp() override {
-        lista.addActivity(Activity("Lezione", Ora(9, 0), Ora(10, 0), oggi));
-        lista.addActivity(Activity("Studio", Ora(14, 0), Ora(16, 0), oggi));
-        lista.addActivity(Activity("Sport", Ora(18, 0), Ora(19, 0), domani));
+        lista.addActivity(Activity("Lezione", Time(9, 0), Time(10, 0), oggi));
+        lista.addActivity(Activity("Studio", Time(14, 0), Time(16, 0), oggi));
+        lista.addActivity(Activity("Sport", Time(18, 0), Time(19, 0), domani));
     }
 };
 
@@ -36,7 +36,7 @@ TEST_F(ActivityListTest, RemoveActivityTest) {
 }
 
 TEST_F(ActivityListTest, ModifyActivityTest) {
-    Activity nuova("Esame", Ora(12, 0), Ora(13, 0), oggi);
+    Activity nuova("Esame", Time(12, 0), Time(13, 0), oggi);
     lista.modifyActivity(0, nuova);
     EXPECT_EQ(lista.getAllActivities()[0].getDescription(), "Esame");
 }
