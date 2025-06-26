@@ -7,8 +7,6 @@
 #include "ActivityWindow.h"
 #include <QApplication>
 #include <QPushButton>
-// altri include eventualmente necessari
-
 #include <QDialog>
 #include <QTextEdit>
 #include <QDateEdit>
