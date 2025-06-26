@@ -5,38 +5,48 @@
 #include "gtest/gtest.h"
 #include "../ActivityList.h"
 
-class ActivityListTest : public ::testing::Test {
-protected:
+TEST(ActivityList, AddActivityTest) {
     ActivityList lista;
-    Date oggi{23,6, 2025};
-    Date domani{24, 6, 2025};
+    Date oggi{23, 6, 2025};
+    lista.addActivity(Activity("Lezione", Time(9, 0), Time(10, 0), oggi));
+    lista.addActivity(Activity("Studio", Time(14, 0), Time(16, 0), oggi));
 
-    void SetUp() override {
-        lista.addActivity(Activity("Lezione", Time(9, 0), Time(10, 0), oggi));
-        lista.addActivity(Activity("Studio", Time(14, 0), Time(16, 0), oggi));
-        lista.addActivity(Activity("Sport", Time(18, 0), Time(19, 0), domani));
-    }
-};
-
-TEST_F(ActivityListTest, AddActivityTest) {
-    EXPECT_EQ(lista.getAllActivities().size(), 3);
+    EXPECT_EQ(lista.getAllActivities().size(), 2);
 }
 
-TEST_F(ActivityListTest, GetActivitiesByDate) {
+TEST(ActivityList, GetActivitiesByDate) {
+    ActivityList lista;
+    Date oggi{23, 6, 2025};
+    lista.addActivity(Activity("Lezione", Time(9, 0), Time(10, 0), oggi));
+    lista.addActivity(Activity("Studio", Time(14, 0), Time(16, 0), oggi));
+
     auto result = lista.getActivitiesByDate(oggi);
     EXPECT_EQ(result.size(), 2);
     EXPECT_EQ(result[0].getDescription(), "Lezione");
     EXPECT_EQ(result[1].getDescription(), "Studio");
 }
 
-TEST_F(ActivityListTest, RemoveActivityTest) {
+TEST(ActivityList, RemoveActivityTest) {
+    ActivityList lista;
+    Date oggi{23, 6, 2025};
+    Date domani{24, 6, 2025};
+    lista.addActivity(Activity("Lezione", Time(9, 0), Time(10, 0), oggi));
+    lista.addActivity(Activity("Studio", Time(14, 0), Time(16, 0), oggi));
+    lista.addActivity(Activity("Sport", Time(18, 0), Time(19, 0), domani));
+
     lista.removeActivity("Studio");
     EXPECT_EQ(lista.getAllActivities().size(), 2);
     EXPECT_EQ(lista.getAllActivities()[1].getDescription(), "Sport");
 }
 
-TEST_F(ActivityListTest, ModifyActivityTest) {
+TEST(ActivityList, ModifyActivityTest) {
+    ActivityList lista;
+    Date oggi{23, 6, 2025};
+    lista.addActivity(Activity("Lezione", Time(9, 0), Time(10, 0), oggi));
+    lista.addActivity(Activity("Studio", Time(14, 0), Time(16, 0), oggi));
+
     Activity nuova("Esame", Time(12, 0), Time(13, 0), oggi);
     lista.modifyActivity(0, nuova);
+
     EXPECT_EQ(lista.getAllActivities()[0].getDescription(), "Esame");
 }
