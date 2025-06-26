@@ -310,6 +310,12 @@
 			null
 		],
 		[
+			"C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/ActivityWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_ActivityWindow.cpp",
+			null
+		],
+		[
 			"C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/Date.h",
 			"MU",
 			"EWIEGA46WW/moc_Date.cpp",
@@ -400,6 +406,11 @@
 		],
 		[
 			"C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/ActivityList.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/ActivityWindow.cpp",
 			"MU",
 			null
 		],
