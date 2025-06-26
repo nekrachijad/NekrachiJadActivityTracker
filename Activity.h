@@ -12,6 +12,8 @@
 
 class Activity {
 protected:
+    static int nextId;
+    int id;
     std::string description;
     Time start;
     Time end;
@@ -20,10 +22,11 @@ protected:
 public:
     Activity(std::string description, Time inizio, Time fine, Date data);
 
-    Activity(): description(""), start(0, 0), end(0, 0), data(1, 1, 2000) {}
+    Activity(): description(""), start(0, 0), end(0, 0), data(1, 1, 2000) {
+    }
 
 
-    virtual ~Activity()=default;
+    virtual ~Activity() = default;
 
     std::string getDescription() const {
         return description;
@@ -53,6 +56,14 @@ public:
 
     void setData(const Date &data) {
         this->data = data;
+    }
+
+    int getId() const {
+        return id;
+    }
+
+    void setId(int id) {
+        this->id = id;
     }
 };
 

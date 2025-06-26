@@ -3,7 +3,7 @@
 //
 
 #include "ActivityList.h"
-
+#include <algorithm> // per std::remove_if
 #include <iostream>
 
 void ActivityList::addActivity(const Activity &activity) {
@@ -20,38 +20,25 @@ std::vector<Activity> ActivityList::getActivitiesByDate(const Date &date) const 
     return result;
 }
 
-void ActivityList::printActivitiesByDate(const Date &date) const {
-    auto result = getActivitiesByDate(date);
-    if (result.empty()) {
-        std::cout << "Nessuna attività trovata per il "
-                << date.getDay() << "/"
-                << date.getMonth() << "/"
-                << date.getYear() << ".\n";
-        return;
-    }
-
-    std::cout << "Attività del "
-            << date.getDay() << "/"
-            << date.getMonth() << "/"
-            << date.getYear() << ":\n";
-
-    for (const auto &activity: result) {
-        std::cout << "- " << activity.getDescription()
-                << " dalle " << activity.getStart().getHours() << ":" << activity.getStart().getMinutes()
-                << " alle " << activity.getEnd().getHours() << ":" << activity.getEnd().getMinutes()
-                << "\n";
-    }
-}
-
-#include <algorithm> // per std::remove_if
-
-void ActivityList::removeActivity(const std::string& description) {
+void ActivityList::removeActivityById(int id) {
     auto it = std::remove_if(activities.begin(), activities.end(),
-                             [&](const Activity& a) {
-                                 return a.getDescription() == description;
+                             [&](const Activity &a) {
+                                 return a.getId() == id;
                              });
     if (it != activities.end()) {
         activities.erase(it, activities.end());
     }
 }
+
+
+void ActivityList::modifyActivityById(int id, const Activity& newActivity) {
+    for (auto& activity : activities) {
+        if (activity.getId() == id) {
+            activity = newActivity;
+            return;
+        }
+    }
+}
+
+
 

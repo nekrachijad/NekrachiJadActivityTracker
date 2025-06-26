@@ -22,18 +22,12 @@ public:
 
     std::vector<Activity> getActivitiesByDate(const Date &date) const;
 
-    void printActivitiesByDate(const Date &date) const;
 
     std::vector<Activity> getAllActivities() const { return activities; }
 
-    void removeActivity(const std::string& description);
+    void removeActivityById(int id);
+    void modifyActivityById(int id, const Activity& nuova);
 
-
-    void modifyActivity(int index, const Activity &nuova) {
-        if (index >= 0 && index < activities.size()) {
-            activities[index] = nuova;
-        }
-    }
 
 };
 

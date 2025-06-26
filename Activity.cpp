@@ -3,9 +3,10 @@
 //
 
 #include "Activity.h"
+int Activity::nextId = 1;
 
 Activity::Activity(std::string description, Time inizio, Time fine, Date data)
-    : description(description), start(inizio), end(fine), data(data) {
+    : id(nextId++),description(description), start(inizio), end(fine), data(data) {
     if ((fine - inizio) < 0) {
         throw std::invalid_argument("L'ora di inizio non può essere maggiore di quella di fine");
     }

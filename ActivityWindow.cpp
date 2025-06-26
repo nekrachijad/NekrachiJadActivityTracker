@@ -16,7 +16,6 @@
 
 ActivityWindow::ActivityWindow(QWidget *parent)
     : QWidget(parent) {
-
     setWindowTitle("ActivityTracker");
     resize(1200, 700);
 
@@ -46,14 +45,15 @@ void ActivityWindow::setupUI() {
     QPushButton *modifyButton = new QPushButton("Modifica un'attività");
     QPushButton *exitButton = new QPushButton("Esci");
 
-    QList<QPushButton*> buttons = { addButton, showButton, removeButton, modifyButton, exitButton };
-    for (auto btn : buttons) {
+    QList<QPushButton *> buttons = {addButton, showButton, removeButton, modifyButton, exitButton};
+    for (auto btn: buttons) {
         btn->setStyleSheet("font-size: 16px;");
         buttonLayout->addWidget(btn);
     }
 
     actionLabel = new QLabel("Qui verrà mostrata l'azione selezionata.");
-    actionLabel->setStyleSheet("font-size: 18px; color: #333; background-color: #f0f0f0; padding: 10px; border: 1px solid #ccc;");
+    actionLabel->setStyleSheet(
+        "font-size: 18px; color: #333; background-color: #f0f0f0; padding: 10px; border: 1px solid #ccc;");
     actionLabel->setAlignment(Qt::AlignTop | Qt::AlignLeft);
     actionLabel->setWordWrap(true);
 
@@ -171,12 +171,12 @@ void ActivityWindow::mostraAttivitaPerData() {
                           QString::number(qdate.month()) + "/" +
                           QString::number(qdate.year()) + ":\n";
 
-            for (const auto &act : activities) {
+            for (const auto &act: activities) {
                 msg += "- " + QString::fromStdString(act.getDescription()) + " [" +
-                       QString::number(act.getStart().getHours()) + ":" +
-                       QString::number(act.getStart().getMinutes()).rightJustified(2, '0') + " - " +
-                       QString::number(act.getEnd().getHours()) + ":" +
-                       QString::number(act.getEnd().getMinutes()).rightJustified(2, '0') + "]\n";
+                        QString::number(act.getStart().getHours()) + ":" +
+                        QString::number(act.getStart().getMinutes()).rightJustified(2, '0') + " - " +
+                        QString::number(act.getEnd().getHours()) + ":" +
+                        QString::number(act.getEnd().getMinutes()).rightJustified(2, '0') + "]\n";
             }
             actionLabel->setText(msg);
         }
@@ -189,19 +189,36 @@ void ActivityWindow::mostraAttivitaPerData() {
 }
 
 void ActivityWindow::rimuoviAttivita() {
-    if (activityList.getAllActivities().empty()) {
+    auto allActivities = activityList.getAllActivities();
+    if (allActivities.empty()) {
         actionLabel->setText("Non ci sono attività da rimuovere.");
         return;
     }
 
-    bool ok;
-    QString descToRemove = QInputDialog::getText(this, "Rimuovi Attività",
-                                                 "Inserisci la descrizione esatta dell'attività da rimuovere:",
-                                                 QLineEdit::Normal, "", &ok);
+    QStringList items;
+    for (const auto &act: allActivities) {
+        QString desc = QString::fromStdString(act.getDescription()) + " [" +
+                       QString::number(act.getData().getDay()) + "/" +
+                       QString::number(act.getData().getMonth()) + "/" +
+                       QString::number(act.getData().getYear()) + " " +
+                       QString::number(act.getStart().getHours()) + ":" +
+                       QString::number(act.getStart().getMinutes()).rightJustified(2, '0') + " - " +
+                       QString::number(act.getEnd().getHours()) + ":" +
+                       QString::number(act.getEnd().getMinutes()).rightJustified(2, '0') + "]";
 
-    if (ok && !descToRemove.isEmpty()) {
-        activityList.removeActivity(descToRemove.toStdString());
-        actionLabel->setText("Se l'attività esisteva, è stata rimossa.");
+        items << desc;
+    }
+
+    bool ok;
+    QString selected = QInputDialog::getItem(this, "Rimuovi Attività",
+                                             "Seleziona attività da rimuovere:", items, 0, false, &ok);
+
+    if (ok && !selected.isEmpty()) {
+        int index = items.indexOf(selected);
+        const Activity &activityToRemove = allActivities[index];
+        int id = activityToRemove.getId();
+        activityList.removeActivityById(id);
+        actionLabel->setText("Attività rimossa con successo.");
     }
 }
 
@@ -213,7 +230,7 @@ void ActivityWindow::modificaAttivita() {
     }
 
     QStringList items;
-    for (const auto &act : allActivities) {
+    for (const auto &act: allActivities) {
         QString desc = QString::fromStdString(act.getDescription()) + " [" +
                        QString::number(act.getData().getDay()) + "/" +
                        QString::number(act.getData().getMonth()) + "/" +
@@ -285,7 +302,8 @@ void ActivityWindow::modificaAttivita() {
                                Time(qend.hour(), qend.minute()),
                                Date(qdate.day(), qdate.month(), qdate.year()));
 
-                activityList.modifyActivity(index, nuova);
+                int id = oldActivity.getId();
+                activityList.modifyActivityById(id, nuova);
                 actionLabel->setText("Attività modificata con successo.");
                 dialog.accept();
             } catch (std::invalid_argument &e) {
@@ -298,3 +316,6 @@ void ActivityWindow::modificaAttivita() {
         dialog.exec();
     }
 }
+
+
+
