@@ -14,9 +14,9 @@ TEST(DateFixture, ConstructorTest) {
 
 TEST(DateTest, DefaultConstructorTest) {
     Date date;
-    EXPECT_EQ(date.getDay(), 0);
-    EXPECT_EQ(date.getMonth(), 0);
-    EXPECT_EQ(date.getYear(), 0);
+    EXPECT_EQ(date.getDay(), 1);
+    EXPECT_EQ(date.getMonth(), 1);
+    EXPECT_EQ(date.getYear(), 2000);
 }
 
 

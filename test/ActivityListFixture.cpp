@@ -30,7 +30,7 @@ TEST_F(ActivityListTest, GetActivitiesByDate) {
 }
 
 TEST_F(ActivityListTest, RemoveActivityTest) {
-    lista.removeActivity(1);
+    lista.removeActivity("Studio");
     EXPECT_EQ(lista.getAllActivities().size(), 2);
     EXPECT_EQ(lista.getAllActivities()[1].getDescription(), "Sport");
 }
