@@ -26,17 +26,15 @@ public:
 
     std::vector<Activity> getAllActivities() const { return activities; }
 
-    void removeActivity(int index) {
-        if (index >= 0 && index < activities.size()) {
-            activities.erase(activities.begin() + index);
-        }
-    }
+    void removeActivity(const std::string& description);
+
 
     void modifyActivity(int index, const Activity &nuova) {
         if (index >= 0 && index < activities.size()) {
             activities[index] = nuova;
         }
     }
+
 };
 
 #endif // ACTIVITYLIST_H

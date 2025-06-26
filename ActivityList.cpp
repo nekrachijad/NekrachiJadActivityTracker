@@ -42,3 +42,16 @@ void ActivityList::printActivitiesByDate(const Date &date) const {
                 << "\n";
     }
 }
+
+#include <algorithm> // per std::remove_if
+
+void ActivityList::removeActivity(const std::string& description) {
+    auto it = std::remove_if(activities.begin(), activities.end(),
+                             [&](const Activity& a) {
+                                 return a.getDescription() == description;
+                             });
+    if (it != activities.end()) {
+        activities.erase(it, activities.end());
+    }
+}
+

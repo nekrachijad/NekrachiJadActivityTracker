@@ -20,7 +20,8 @@ protected:
 public:
     Activity(std::string description, Time inizio, Time fine, Date data);
 
-    Activity()=default;
+    Activity(): description(""), start(0, 0), end(0, 0), data(1, 1, 2000) {}
+
 
     virtual ~Activity()=default;
 

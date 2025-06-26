@@ -11,6 +11,8 @@
 #include <QTimeEdit>
 #include <QTextEdit>
 #include <QInputDialog>
+#include <QScrollBar>
+#include <QGraphicsDropShadowEffect>
 
 #include "Date.h"
 #include "Time.h"
@@ -65,7 +67,7 @@ int main(int argc, char *argv[]) {
         QDialog dialog(&window);
         dialog.setWindowTitle("Aggiungi Attività");
 
-        // Dimensione finestra circa 60% della finestra principale
+
         dialog.resize(window.width() * 0.6, window.height() * 0.6);
 
         QVBoxLayout *layout = new QVBoxLayout(&dialog);
@@ -73,7 +75,7 @@ int main(int argc, char *argv[]) {
         // Descrizione
         QLabel *descLabel = new QLabel("Descrizione:");
         QTextEdit *descEdit = new QTextEdit();
-        descEdit->setMinimumHeight(100); // Più grande in altezza
+        descEdit->setMinimumHeight(100);
         descEdit->setPlaceholderText("Inserisci qui la descrizione dettagliata...");
 
         // Data
@@ -188,141 +190,129 @@ int main(int argc, char *argv[]) {
     });
 
 
-
     // === Rimuovi un'attività ========================================================================
+
     createButton("Rimuovi un'attività", [&]() {
-    if (activityList.getAllActivities().empty()) {
-        actionLabel->setText("Non ci sono attività da rimuovere.");
-        return;
-    }
+        if (activityList.getAllActivities().empty()) {
+            actionLabel->setText("Non ci sono attività da rimuovere.");
+            return;
+        }
 
-    QStringList items;
-    for (size_t i = 0; i < activityList.getAllActivities().size(); ++i) {
-        const Activity& act = activityList.getAllActivities()[i];
-        QString desc = QString::fromStdString(act.getDescription()) + " [" +
-                       QString::number(act.getData().getDay()) + "/" +
-                       QString::number(act.getData().getMonth()) + "/" +
-                       QString::number(act.getData().getMonth()) + " " +
-                       QString::number(act.getStart().getHours()) + ":" +
-                       QString::number(act.getStart().getMinutes()).rightJustified(2, '0') + " - " +
-                       QString::number(act.getEnd().getHours()) + ":" +
-                       QString::number(act.getEnd().getMinutes()).rightJustified(2, '0') + "]";
-        items << desc;
-    }
+        bool ok;
+        QString descToRemove = QInputDialog::getText(&window, "Rimuovi Attività",
+                                                     "Inserisci la descrizione esatta dell'attività da rimuovere:",
+                                                     QLineEdit::Normal, "", &ok);
 
-    bool ok;
-    QString selected = QInputDialog::getItem(&window, "Rimuovi Attività",
-                                             "Seleziona attività da rimuovere:", items, 0, false, &ok);
+        if (ok && !descToRemove.isEmpty()) {
+            activityList.removeActivity(descToRemove.toStdString());
+            actionLabel->setText("Se l'attività esisteva, è stata rimossa.");
+        }
+    });
 
-    if (ok && !selected.isEmpty()) {
-        int index = items.indexOf(selected);
-        activityList.removeActivity(index);
-        actionLabel->setText("Attività rimossa con successo.");
-    }
-});
 
-    // === Rimuovi un'attività ===========================================================================
+    // === modifica un'attività ===========================================================================
 
 
     createButton("Modifica un'attività", [&]() {
-    if (activityList.getAllActivities().empty()) {
-        actionLabel->setText("Non ci sono attività da modificare.");
-        return;
-    }
+        auto allActivities = activityList.getAllActivities();
+        if (allActivities.empty()) {
+            actionLabel->setText("Non ci sono attività da modificare.");
+            return;
+        }
 
-    QStringList items;
-    for (size_t i = 0; i < activityList.getAllActivities().size(); ++i) {
-        const Activity& act = activityList.getAllActivities()[i];
-        QString desc = QString::fromStdString(act.getDescription()) + " [" +
-                       QString::number(act.getData().getDay()) + "/" +
-                       QString::number(act.getData().getMonth()) + "/" +
-                       QString::number(act.getData().getYear()) + " " +
-                       QString::number(act.getStart().getHours()) + ":" +
-                       QString::number(act.getStart().getMinutes()).rightJustified(2, '0') + " - " +
-                       QString::number(act.getEnd().getHours()) + ":" +
-                       QString::number(act.getEnd().getMinutes()).rightJustified(2, '0') + "]";
-        items << desc;
-    }
+        QStringList items;
+        for (const auto &act: allActivities) {
+            QString desc = QString::fromStdString(act.getDescription()) + " [" +
+                           QString::number(act.getData().getDay()) + "/" +
+                           QString::number(act.getData().getMonth()) + "/" +
+                           QString::number(act.getData().getYear()) + " " +
+                           QString::number(act.getStart().getHours()) + ":" +
+                           QString::number(act.getStart().getMinutes()).rightJustified(2, '0') + " - " +
+                           QString::number(act.getEnd().getHours()) + ":" +
+                           QString::number(act.getEnd().getMinutes()).rightJustified(2, '0') + "]";
 
-    bool ok;
-    QString selected = QInputDialog::getItem(&window, "Modifica Attività",
-                                             "Seleziona attività da modificare:", items, 0, false, &ok);
+            items << desc;
+        }
 
-    if (ok && !selected.isEmpty()) {
-        int index = items.indexOf(selected);
-        const Activity& oldActivity = activityList.getAllActivities()[index];
+        bool ok;
+        QString selected = QInputDialog::getItem(&window, "Modifica Attività",
+                                                 "Seleziona attività da modificare:", items, 0, false, &ok);
 
-        QDialog dialog(&window);
-        dialog.setWindowTitle("Modifica Attività");
+        if (ok && !selected.isEmpty()) {
+            int index = items.indexOf(selected);
+            const Activity &oldActivity = allActivities[index];
 
-        QVBoxLayout* layout = new QVBoxLayout(&dialog);
+            QDialog dialog(&window);
+            dialog.setWindowTitle("Modifica Attività");
 
-        QLabel* descLabel = new QLabel("Descrizione:");
-        QLineEdit* descEdit = new QLineEdit(QString::fromStdString(oldActivity.getDescription()));
+            QVBoxLayout *layout = new QVBoxLayout(&dialog);
 
-        QLabel* dateLabel = new QLabel("Data:");
-        QDateEdit* dateEdit = new QDateEdit(QDate(oldActivity.getData().getYear(),
-                                                   oldActivity.getData().getMonth(),
-                                                   oldActivity.getData().getDay()));
-        dateEdit->setCalendarPopup(true);
+            QLabel *descLabel = new QLabel("Descrizione:");
+            QLineEdit *descEdit = new QLineEdit(QString::fromStdString(oldActivity.getDescription()));
 
-        QLabel* startLabel = new QLabel("Ora Inizio:");
-        QTimeEdit* startTimeEdit = new QTimeEdit(QTime(oldActivity.getStart().getHours(),
-                                                        oldActivity.getStart().getMinutes()));
+            QLabel *dateLabel = new QLabel("Data:");
+            QDateEdit *dateEdit = new QDateEdit(QDate(oldActivity.getData().getYear(),
+                                                      oldActivity.getData().getMonth(),
+                                                      oldActivity.getData().getDay()));
+            dateEdit->setCalendarPopup(true);
 
-        QLabel* endLabel = new QLabel("Ora Fine:");
-        QTimeEdit* endTimeEdit = new QTimeEdit(QTime(oldActivity.getEnd().getHours(),
-                                                     oldActivity.getEnd().getMinutes()));
+            QLabel *startLabel = new QLabel("Ora Inizio:");
+            QTimeEdit *startTimeEdit = new QTimeEdit(QTime(oldActivity.getStart().getHours(),
+                                                           oldActivity.getStart().getMinutes()));
 
-        QPushButton* okButton = new QPushButton("Salva");
-        QPushButton* cancelButton = new QPushButton("Annulla");
+            QLabel *endLabel = new QLabel("Ora Fine:");
+            QTimeEdit *endTimeEdit = new QTimeEdit(QTime(oldActivity.getEnd().getHours(),
+                                                         oldActivity.getEnd().getMinutes()));
 
-        layout->addWidget(descLabel);
-        layout->addWidget(descEdit);
-        layout->addWidget(dateLabel);
-        layout->addWidget(dateEdit);
-        layout->addWidget(startLabel);
-        layout->addWidget(startTimeEdit);
-        layout->addWidget(endLabel);
-        layout->addWidget(endTimeEdit);
+            QPushButton *okButton = new QPushButton("Salva");
+            QPushButton *cancelButton = new QPushButton("Annulla");
 
-        QHBoxLayout* buttonLayout = new QHBoxLayout();
-        buttonLayout->addWidget(okButton);
-        buttonLayout->addWidget(cancelButton);
-        layout->addLayout(buttonLayout);
+            layout->addWidget(descLabel);
+            layout->addWidget(descEdit);
+            layout->addWidget(dateLabel);
+            layout->addWidget(dateEdit);
+            layout->addWidget(startLabel);
+            layout->addWidget(startTimeEdit);
+            layout->addWidget(endLabel);
+            layout->addWidget(endTimeEdit);
 
-        QObject::connect(okButton, &QPushButton::clicked, [&]() {
-            QString desc = descEdit->text();
-            QDate qdate = dateEdit->date();
-            QTime qstart = startTimeEdit->time();
-            QTime qend = endTimeEdit->time();
+            QHBoxLayout *buttonLayout = new QHBoxLayout();
+            buttonLayout->addWidget(okButton);
+            buttonLayout->addWidget(cancelButton);
+            layout->addLayout(buttonLayout);
 
-            try {
-                Activity nuova(desc.toStdString(),
-                               Time(qstart.hour(), qstart.minute()),
-                               Time(qend.hour(), qend.minute()),
-                               Date(qdate.day(), qdate.month(), qdate.year()));
+            QObject::connect(okButton, &QPushButton::clicked, [&]() {
+                QString desc = descEdit->text();
+                QDate qdate = dateEdit->date();
+                QTime qstart = startTimeEdit->time();
+                QTime qend = endTimeEdit->time();
 
-                activityList.modifyActivity(index, nuova);
-                actionLabel->setText("Attività modificata con successo.");
-                dialog.accept();
-            } catch (std::invalid_argument& e) {
-                actionLabel->setText("Errore: " + QString::fromStdString(e.what()));
-            }
-        });
+                try {
+                    Activity nuova(desc.toStdString(),
+                                   Time(qstart.hour(), qstart.minute()),
+                                   Time(qend.hour(), qend.minute()),
+                                   Date(qdate.day(), qdate.month(), qdate.year()));
 
-        QObject::connect(cancelButton, &QPushButton::clicked, &dialog, &QDialog::reject);
+                    activityList.modifyActivity(index, nuova);
+                    actionLabel->setText("Attività modificata con successo.");
+                    dialog.accept();
+                } catch (std::invalid_argument &e) {
+                    actionLabel->setText("Errore: " + QString::fromStdString(e.what()));
+                }
+            });
 
-        dialog.exec();
-    }
-});
+            QObject::connect(cancelButton, &QPushButton::clicked, &dialog, &QDialog::reject);
+
+            dialog.exec();
+        }
+    });
 
 
     createButton("Esci", [&]() {
         app.quit();
     });
 
-    // Assembla UI
+
     leftLayout->addWidget(titleLabel);
     leftLayout->addWidget(subtitle);
     leftLayout->addWidget(line);

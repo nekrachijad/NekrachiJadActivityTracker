@@ -14,7 +14,8 @@ protected:
 
 public:
     Date(int day, int month, int year);
-    Date():day(0),month(0),year(0){}
+    Date(): day(1), month(1), year(2000) {}
+
 
     int getDay() const;
 

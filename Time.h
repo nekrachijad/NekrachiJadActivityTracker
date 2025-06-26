@@ -2,9 +2,9 @@
 // Created by jadne on 22/06/2025.
 //
 
+
 #ifndef ORA_H
 #define ORA_H
-
 
 #include <iostream>
 #include <stdexcept>
