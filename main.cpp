@@ -22,7 +22,6 @@
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
-    // Registro attività globale
     ActivityList activityList;
 
     QWidget window;
