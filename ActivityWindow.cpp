@@ -18,7 +18,6 @@ ActivityWindow::ActivityWindow(QWidget *parent)
     : QWidget(parent) {
     setWindowTitle("ActivityTracker");
     resize(1200, 700);
-
     setupUI();
 }
 

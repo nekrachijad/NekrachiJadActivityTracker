@@ -3,7 +3,6 @@
 //
 
 #include "ActivityList.h"
-#include <algorithm> // per std::remove_if
 #include <iostream>
 
 void ActivityList::addActivity(const Activity &activity) {
@@ -21,18 +20,18 @@ std::vector<Activity> ActivityList::getActivitiesByDate(const Date &date) const 
 }
 
 void ActivityList::removeActivityById(int id) {
-    auto it = std::remove_if(activities.begin(), activities.end(),
-                             [&](const Activity &a) {
-                                 return a.getId() == id;
-                             });
-    if (it != activities.end()) {
-        activities.erase(it, activities.end());
+    for (auto it = activities.begin(); it != activities.end();) {
+        if (it->getId() == id) {
+            it = activities.erase(it);
+        } else {
+            ++it;
+        }
     }
 }
 
 
-void ActivityList::modifyActivityById(int id, const Activity& newActivity) {
-    for (auto& activity : activities) {
+void ActivityList::modifyActivityById(int id, const Activity &newActivity) {
+    for (auto &activity: activities) {
         if (activity.getId() == id) {
             activity = newActivity;
             return;
