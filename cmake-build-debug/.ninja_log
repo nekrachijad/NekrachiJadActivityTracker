@@ -142,3 +142,16 @@
 77	416	7730034452980619	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp	326e66e5be24e4d1
 417	1478	7730034456380736	CMakeFiles/NekrachiJadActivityTracker.dir/ActivityList.cpp.obj	e3668df7d563503e
 1479	2179	7730034467003791	NekrachiJadActivityTracker.exe	99526c23dcff1335
+48	332	7730174981567764	core_autogen/timestamp	c455480988affe49
+48	332	7730174981567764	core_autogen/mocs_compilation.cpp	c455480988affe49
+48	332	7730174981567764	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/core_autogen/timestamp	c455480988affe49
+48	332	7730174981567764	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/core_autogen/mocs_compilation.cpp	c455480988affe49
+333	1280	7730174984402011	CMakeFiles/core.dir/ActivityList.cpp.obj	f473171cfbf4dbd
+1280	1611	7730174993875097	libcore.a	350c19df013d0a4b
+1611	7559	7730174997187696	test/runAllTests.exe	7c10860aadc65195
+184	454	7730967392232936	NekrachiJadActivityTracker_autogen/timestamp	326e66e5be24e4d1
+184	454	7730967392232936	NekrachiJadActivityTracker_autogen/mocs_compilation.cpp	326e66e5be24e4d1
+184	454	7730967392232936	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/timestamp	326e66e5be24e4d1
+184	454	7730967392232936	C:/Users/jadne/Documents/GitHub/NekrachiJadActivityTracker/cmake-build-debug/NekrachiJadActivityTracker_autogen/mocs_compilation.cpp	326e66e5be24e4d1
+455	6041	7730967394938018	CMakeFiles/NekrachiJadActivityTracker.dir/ActivityWindow.cpp.obj	93a4f704bd91675
+6042	7453	7730967450801347	NekrachiJadActivityTracker.exe	99526c23dcff1335
